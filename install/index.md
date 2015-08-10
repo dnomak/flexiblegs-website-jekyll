@@ -43,14 +43,26 @@ permalink: /install/
               <p>Statik yönetimi tercih ederseniz Flexible Grid System'in CSS, Sass, Less veya Stylus ile hazırlanmış sabit <b>class</b>larını kullanarak <b>HTML</b> kısmında kodlama yapabilirsiniz.</p>
             {% endif %}
             <div class="dn-space-16"></div>
-            <ul>
-              <li><a href="/install/css/">CSS</a></li>
-              <li><a href="/install/bem-css/">BEM CSS</a></li>
-              <li><span class="line-through">Scss</span></li>
-              <li><span class="line-through">Sass</span></li>
-              <li><span class="line-through">Less</span></li>
-              <li><span class="line-through">Stylus</span></li>
-            </ul>
+            {% if page.language == 'en' %}
+              <ul>
+                <li><a href="/install/css/">CSS</a></li>
+                <li><a href="/install/bem-css/">BEM CSS</a></li>
+                <li><span class="line-through">Scss</span></li>
+                <li><span class="line-through">Sass</span></li>
+                <li><span class="line-through">Less</span></li>
+                <li><span class="line-through">Stylus</span></li>
+              </ul>
+            {% endif %}
+            {% if page.language == 'tr' %}
+              <ul>
+                <li><a href="/tr/install/css/">CSS</a></li>
+                <li><a href="/tr/install/bem-css/">BEM CSS</a></li>
+                <li><span class="line-through">Scss</span></li>
+                <li><span class="line-through">Sass</span></li>
+                <li><span class="line-through">Less</span></li>
+                <li><span class="line-through">Stylus</span></li>
+              </ul>
+            {% endif %}
           </div>
           <div class="col">
             <div class="dn-space-24"></div>
@@ -68,12 +80,22 @@ permalink: /install/
               <p>Dinamik yöntemi tercih ederseniz Flexible Grid System'in Sass, Less veya Stylus ile hazırlanmış <b>mixin</b>lerini kullanarak <b>CSS</b> kısmında kodlama yapabilirsiniz.</p>
             {% endif %}
             <div class="dn-space-16"></div>
-            <ul>
-              <li><a href="/install/scss-plus/">Scss Plus</a></li>
-              <li><a href="/install/sass-plus/">Sass Plus</a></li>
-              <li><a href="/install/less-plus/">Less Plus</a></li>
-              <li><a href="/install/stylus-plus/">Stylus Plus</a></li>
-            </ul>
+            {% if page.language == 'en' %}
+              <ul>
+                <li><a href="/install/scss-plus/">Scss Plus</a></li>
+                <li><a href="/install/sass-plus/">Sass Plus</a></li>
+                <li><a href="/install/less-plus/">Less Plus</a></li>
+                <li><a href="/install/stylus-plus/">Stylus Plus</a></li>
+              </ul>
+            {% endif %}
+            {% if page.language == 'tr' %}
+              <ul>
+                <li><a href="/tr/install/scss-plus/">Scss Plus</a></li>
+                <li><a href="/tr/install/sass-plus/">Sass Plus</a></li>
+                <li><a href="/tr/install/less-plus/">Less Plus</a></li>
+                <li><a href="/tr/install/stylus-plus/">Stylus Plus</a></li>
+              </ul>
+            {% endif %}
           </div>
         </div>
       </div>

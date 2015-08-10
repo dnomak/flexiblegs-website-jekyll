@@ -67,14 +67,26 @@ permalink: /learn/
               <p><b>Statik</b></p>
             {% endif %}
             <div class="dn-space-16"></div>
-            <ul>
-              <li><a href="/learn/wrap/?framework=css">CSS</a></li>
-              <li><a href="/learn/wrap/?framework=bem-css">BEM CSS</a></li>
-              <li><span class="line-through">Scss</span></li>
-              <li><span class="line-through">Sass</span></li>
-              <li><span class="line-through">Less</span></li>
-              <li><span class="line-through">Stylus</span></li>
-            </ul>
+            {% if page.language == 'en' %}
+              <ul>
+                <li><a href="/learn/wrap/?framework=css">CSS</a></li>
+                <li><a href="/learn/wrap/?framework=bem-css">BEM CSS</a></li>
+                <li><span class="line-through">Scss</span></li>
+                <li><span class="line-through">Sass</span></li>
+                <li><span class="line-through">Less</span></li>
+                <li><span class="line-through">Stylus</span></li>
+              </ul>
+            {% endif %}
+            {% if page.language == 'tr' %}
+              <ul>
+                <li><a href="/tr/learn/wrap/?framework=css">CSS</a></li>
+                <li><a href="/tr/learn/wrap/?framework=bem-css">BEM CSS</a></li>
+                <li><span class="line-through">Scss</span></li>
+                <li><span class="line-through">Sass</span></li>
+                <li><span class="line-through">Less</span></li>
+                <li><span class="line-through">Stylus</span></li>
+              </ul>
+            {% endif %}
           </div>
           <div class="col">
             <div class="dn-space-24"></div>
@@ -85,12 +97,22 @@ permalink: /learn/
               <p><b>Dinamik</b></p>
             {% endif %}
             <div class="dn-space-16"></div>
-            <ul>
-              <li><a href="/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
-              <li><a href="/learn/wrap/?framework=sass-plus">Sass Plus</a></li>
-              <li><a href="/learn/wrap/?framework=less-plus">Less Plus</a></li>
-              <li><a href="/learn/wrap/?framework=stylus-plus">Stylus Plus</a></li>
-            </ul>
+            {% if page.language == 'en' %}
+              <ul>
+                <li><a href="/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
+                <li><a href="/learn/wrap/?framework=sass-plus">Sass Plus</a></li>
+                <li><a href="/learn/wrap/?framework=less-plus">Less Plus</a></li>
+                <li><a href="/learn/wrap/?framework=stylus-plus">Stylus Plus</a></li>
+              </ul>
+            {% endif %}
+            {% if page.language == 'tr' %}
+              <ul>
+                <li><a href="/tr/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
+                <li><a href="/tr/learn/wrap/?framework=sass-plus">Sass Plus</a></li>
+                <li><a href="/tr/learn/wrap/?framework=less-plus">Less Plus</a></li>
+                <li><a href="/tr/learn/wrap/?framework=stylus-plus">Stylus Plus</a></li>
+              </ul>
+            {% endif %}
           </div>
         </div>
       </div>

@@ -85,8 +85,8 @@ permalink: /future/
             <li>Flexible Cloud</li>
             <li>Flexible Workspace &amp; Cafe
               <ul>
-                <li>Coffee (Flexible Blend)</li>
-                <li>Carrot Cake ve daha fazlası :)</li>
+                <li>Kahve (Flexible Blend)</li>
+                <li>Havuçlu Kek ve daha fazlası :)</li>
               </ul>
             </li>
           </ul>
