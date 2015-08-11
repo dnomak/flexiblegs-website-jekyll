@@ -20,9 +20,9 @@ permalink: /learn/not-first/
           -->  &lt;div class="col <span>xl-not-first</span>"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include not-first/compiled.html %}
+        {% include learn/not-first/compiled.html %}
       </div>
-      {% include not-first/preview.html %}
+      {% include learn/not-first/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -34,11 +34,11 @@ permalink: /learn/not-first/
   </div>
 </div>
 
-<div id="bem-css">
+<div id="bem">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (bem-css)</div>
+      <div class="dn-style--title">col(<span>not-first</span>) (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -50,13 +50,13 @@ permalink: /learn/not-first/
           -->  &lt;div class="wrap__col <span>wrap__col--xl-not-first</span>"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include not-first/compiled.html %}
+        {% include learn/not-first/compiled.html %}
       </div>
-      {% include not-first/preview.html %}
+      {% include learn/not-first/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-bem" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem</a>
           </div>
         </div>
       </div>
@@ -74,16 +74,7 @@ permalink: /learn/not-first/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/not-first/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
@@ -99,11 +90,11 @@ permalink: /learn/not-first/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include not-first/compiled.html %}
+            {% include learn/not-first/compiled.html %}
           </div>
         </div>
       </div>
-      {% include not-first/preview.html %}
+      {% include learn/not-first/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -125,16 +116,7 @@ permalink: /learn/not-first/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/not-first/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
@@ -147,11 +129,11 @@ permalink: /learn/not-first/
               -->    &.three<br/><!--
               -->      +<span>col(not-first)</span><!--
             --></pre>
-            {% include not-first/compiled.html %}
+            {% include learn/not-first/compiled.html %}
           </div>
         </div>
       </div>
-      {% include not-first/preview.html %}
+      {% include learn/not-first/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -173,16 +155,7 @@ permalink: /learn/not-first/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/not-first/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
@@ -198,11 +171,11 @@ permalink: /learn/not-first/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include not-first/compiled.html %}
+            {% include learn/not-first/compiled.html %}
           </div>
         </div>
       </div>
-      {% include not-first/preview.html %}
+      {% include learn/not-first/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -224,16 +197,7 @@ permalink: /learn/not-first/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/not-first/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
@@ -246,11 +210,11 @@ permalink: /learn/not-first/
               -->    &.three<br/><!--
               -->      <span>col(not-first)</span><!--
             --></pre>
-            {% include not-first/compiled.html %}
+            {% include learn/not-first/compiled.html %}
           </div>
         </div>
       </div>
-      {% include not-first/preview.html %}
+      {% include learn/not-first/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">

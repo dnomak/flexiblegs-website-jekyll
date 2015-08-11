@@ -18,9 +18,9 @@ permalink: /learn/wrap/
           --><br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include wrap/compiled.html %}
+        {% include learn/wrap/compiled.html %}
       </div>
-      {% include wrap/preview.html %}
+      {% include learn/wrap/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -32,11 +32,11 @@ permalink: /learn/wrap/
   </div>
 </div>
 
-<div id="bem-css">
+<div id="bem">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title"><span>wrap</span> (bem-css)</div>
+      <div class="dn-style--title"><span>wrap</span> (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -46,13 +46,13 @@ permalink: /learn/wrap/
           --><br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include wrap/compiled.html %}
+        {% include learn/wrap/compiled.html %}
       </div>
-      {% include wrap/preview.html %}
+      {% include learn/wrap/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-bem" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem</a>
           </div>
         </div>
       </div>
@@ -70,25 +70,18 @@ permalink: /learn/wrap/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              --><br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/wrap/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include <span>wrap</span>;<br/><!--
               -->}<!--
             --></pre>
-            {% include wrap/compiled.html %}
+            {% include learn/wrap/compiled.html %}
           </div>
         </div>
       </div>
-      {% include wrap/preview.html %}
+      {% include learn/wrap/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -110,25 +103,18 @@ permalink: /learn/wrap/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              --><br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/wrap/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +<span>wrap</span><br/><!--
               --> <!--
             --></pre>
-            {% include wrap/compiled.html %}
+            {% include learn/wrap/compiled.html %}
           </div>
         </div>
       </div>
-      {% include wrap/preview.html %}
+      {% include learn/wrap/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -150,25 +136,18 @@ permalink: /learn/wrap/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              --><br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/wrap/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .<span>wrap</span>;<br/><!--
               -->}<!--
             --></pre>
-            {% include wrap/compiled.html %}
+            {% include learn/wrap/compiled.html %}
           </div>
         </div>
       </div>
-      {% include wrap/preview.html %}
+      {% include learn/wrap/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -190,25 +169,18 @@ permalink: /learn/wrap/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              --><br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/wrap/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  <span>wrap</span>()<br/><!--
               --> <!--
             --></pre>
-            {% include wrap/compiled.html %}
+            {% include learn/wrap/compiled.html %}
           </div>
         </div>
       </div>
-      {% include wrap/preview.html %}
+      {% include learn/wrap/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">

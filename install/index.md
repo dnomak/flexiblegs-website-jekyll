@@ -45,8 +45,7 @@ permalink: /install/
             <div class="dn-space-16"></div>
             {% if page.language == 'en' %}
               <ul>
-                <li><a href="/install/css/">CSS</a></li>
-                <li><a href="/install/bem-css/">BEM CSS</a></li>
+                <li><a href="/install/css/">CSS</a> or <a href="/install/bem/">BEM</a></li>
                 <li><span class="line-through">Scss</span></li>
                 <li><span class="line-through">Sass</span></li>
                 <li><span class="line-through">Less</span></li>
@@ -55,8 +54,7 @@ permalink: /install/
             {% endif %}
             {% if page.language == 'tr' %}
               <ul>
-                <li><a href="/tr/install/css/">CSS</a></li>
-                <li><a href="/tr/install/bem-css/">BEM CSS</a></li>
+                <li><a href="/tr/install/css/">CSS</a> veya <a href="/tr/install/bem/">BEM</a></li>
                 <li><span class="line-through">Scss</span></li>
                 <li><span class="line-through">Sass</span></li>
                 <li><span class="line-through">Less</span></li>

@@ -69,8 +69,7 @@ permalink: /learn/
             <div class="dn-space-16"></div>
             {% if page.language == 'en' %}
               <ul>
-                <li><a href="/learn/wrap/?framework=css">CSS</a></li>
-                <li><a href="/learn/wrap/?framework=bem-css">BEM CSS</a></li>
+                <li><a href="/learn/wrap/?framework=css">CSS</a> or <a href="/learn/wrap/?framework=bem">BEM</a></li>
                 <li><span class="line-through">Scss</span></li>
                 <li><span class="line-through">Sass</span></li>
                 <li><span class="line-through">Less</span></li>
@@ -79,8 +78,7 @@ permalink: /learn/
             {% endif %}
             {% if page.language == 'tr' %}
               <ul>
-                <li><a href="/tr/learn/wrap/?framework=css">CSS</a></li>
-                <li><a href="/tr/learn/wrap/?framework=bem-css">BEM CSS</a></li>
+                <li><a href="/tr/learn/wrap/?framework=css">CSS</a> or <a href="/tr/learn/wrap/?framework=bem">BEM</a></li>
                 <li><span class="line-through">Scss</span></li>
                 <li><span class="line-through">Sass</span></li>
                 <li><span class="line-through">Less</span></li>

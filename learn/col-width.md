@@ -32,9 +32,9 @@ permalink: /learn/col-width/
           --><div class="comment">&lt;!-- 1-11, 2-11, 3-11, 4-11, 5-11, 6-11, 7-11, 8-11, 9-11, 10-11, --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-12, 2-12, 3-12, 4-12, 5-12, 6-12, 7-12, 8-12, 9-12, 10-12, 11-12, --&gt;</div><!--
         --></pre>
-        {% include col-width/compiled.html %}
+        {% include learn/col-width/compiled.html %}
       </div>
-      {% include col-width/preview.html %}
+      {% include learn/col-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -46,11 +46,11 @@ permalink: /learn/col-width/
   </div>
 </div>
 
-<div id="bem-css">
+<div id="bem">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>@width</span>) (bem-css)</div>
+      <div class="dn-style--title">col(<span>@width</span>) (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -74,13 +74,13 @@ permalink: /learn/col-width/
           --><div class="comment">&lt;!-- 1-11, 2-11, 3-11, 4-11, 5-11, 6-11, 7-11, 8-11, 9-11, 10-11, --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-12, 2-12, 3-12, 4-12, 5-12, 6-12, 7-12, 8-12, 9-12, 10-12, 11-12, --&gt;</div><!--
         --></pre>
-        {% include col-width/compiled.html %}
+        {% include learn/col-width/compiled.html %}
       </div>
-      {% include col-width/preview.html %}
+      {% include learn/col-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-bem" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem</a>
           </div>
         </div>
       </div>
@@ -98,16 +98,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/col-width/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
@@ -118,11 +109,11 @@ permalink: /learn/col-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include col-width/compiled.html %}
+            {% include learn/col-width/compiled.html %}
           </div>
         </div>
       </div>
-      {% include col-width/preview.html %}
+      {% include learn/col-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -144,16 +135,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/col-width/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
@@ -162,11 +144,11 @@ permalink: /learn/col-width/
               -->    +col<br/><!--
               -->    +<span>col(1,3)</span><!--
             --></pre>
-            {% include col-width/compiled.html %}
+            {% include learn/col-width/compiled.html %}
           </div>
         </div>
       </div>
-      {% include col-width/preview.html %}
+      {% include learn/col-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -188,16 +170,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/col-width/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
@@ -208,11 +181,11 @@ permalink: /learn/col-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include col-width/compiled.html %}
+            {% include learn/col-width/compiled.html %}
           </div>
         </div>
       </div>
-      {% include col-width/preview.html %}
+      {% include learn/col-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -234,16 +207,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
-          <div class="col">
-            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-              -->&lt;div class="example"&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
-            --></pre>
-            <br class="xl-hidden lg-not-hidden" />
-          </div>
+          {% include learn/col-width/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
@@ -252,11 +216,11 @@ permalink: /learn/col-width/
               -->    col()<br/><!--
               -->    <span>col(1,3)</span><!--
             --></pre>
-            {% include col-width/compiled.html %}
+            {% include learn/col-width/compiled.html %}
           </div>
         </div>
       </div>
-      {% include col-width/preview.html %}
+      {% include learn/col-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
