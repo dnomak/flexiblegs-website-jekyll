@@ -31,7 +31,7 @@ permalink: /future/
           <ul>
             <li>Flexible Grid System
               <ul>
-                <li>Sass, Scss, Less and Stylus</li>
+                <li>Scss, Sass, Less and Stylus</li>
               </ul>
             </li>
             <li>Flexible Frontend Framework
@@ -63,7 +63,7 @@ permalink: /future/
           <ul>
             <li>Flexible Grid System
               <ul>
-                <li>Sass, Scss, Less and Stylus</li>
+                <li>Scss, Sass, Less ve Stylus</li>
               </ul>
             </li>
             <li>Flexible Frontend Framework
