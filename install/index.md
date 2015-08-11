@@ -37,10 +37,10 @@ permalink: /install/
             {% endif %}
             <div class="dn-space-8"></div>
             {% if page.language == 'en' %}
-              <p>If you choose the Static method. You can use the default and static <b>class</b>es of Flexible Grid System to code your<b>HTML</b>.</p>
+              <p>If you choose the Static method. You can use CSS <b>class</b>es to code your<b>HTML</b>.</p>
             {% endif %}
             {% if page.language == 'tr' %}
-              <p>Statik yönetimi tercih ederseniz Flexible Grid System'in CSS, Sass, Less veya Stylus ile hazırlanmış sabit <b>class</b>larını kullanarak <b>HTML</b> kısmında kodlama yapabilirsiniz.</p>
+              <p>Statik yönetimi tercih ederseniz Flexible Grid System'in CSS ile hazırlanmış sabit <b>class</b>larını kullanarak <b>HTML</b> kısmında kodlama yapabilirsiniz.</p>
             {% endif %}
             <div class="dn-space-16"></div>
             {% if page.language == 'en' %}
