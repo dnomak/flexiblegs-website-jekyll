@@ -78,7 +78,7 @@ permalink: /learn/
             {% endif %}
             {% if page.language == 'tr' %}
               <ul>
-                <li><a href="/tr/learn/wrap/?framework=css">CSS</a> or <a href="/tr/learn/wrap/?framework=bem">BEM</a></li>
+                <li><a href="/tr/learn/wrap/?framework=css">CSS</a> veya <a href="/tr/learn/wrap/?framework=bem">BEM</a></li>
                 <li><span class="line-through">Scss</span></li>
                 <li><span class="line-through">Sass</span></li>
                 <li><span class="line-through">Less</span></li>
