@@ -8,7 +8,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (css)</div>
+      <div class="dn-style--title">{% include learn/gutter/title.html %} (css)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -39,7 +39,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (bem)</div>
+      <div class="dn-style--title">{% include learn/gutter/title.html %} (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -70,7 +70,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (scss-plus)</div>
+      <div class="dn-style--title">{% include learn/gutter/title.html %} (scss-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -116,7 +116,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (sass-plus)</div>
+      <div class="dn-style--title">{% include learn/gutter/title.html %} (sass-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -157,7 +157,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (less-plus)</div>
+      <div class="dn-style--title">{% include learn/gutter/title.html %} (less-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -203,7 +203,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (stylus-plus)</div>
+      <div class="dn-style--title">{% include learn/gutter/title.html %} (stylus-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">

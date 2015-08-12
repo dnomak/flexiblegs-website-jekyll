@@ -8,7 +8,7 @@ permalink: /learn/wrap-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>@width</span>) (css)</div>
+      <div class="dn-style--title">{% include learn/wrap-width/title.html %} (css)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -39,7 +39,7 @@ permalink: /learn/wrap-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>@width</span>) (bem)</div>
+      <div class="dn-style--title">{% include learn/wrap-width/title.html %} (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -70,7 +70,7 @@ permalink: /learn/wrap-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>@width</span>) (scss-plus)</div>
+      <div class="dn-style--title">{% include learn/wrap-width/title.html %} (scss-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -108,7 +108,7 @@ permalink: /learn/wrap-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>@width</span>) (sass-plus)</div>
+      <div class="dn-style--title">{% include learn/wrap-width/title.html %} (sass-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -144,7 +144,7 @@ permalink: /learn/wrap-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>@width</span>) (less-plus)</div>
+      <div class="dn-style--title">{% include learn/wrap-width/title.html %} (less-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -182,7 +182,7 @@ permalink: /learn/wrap-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>@width</span>) (stylus-plus)</div>
+      <div class="dn-style--title">{% include learn/wrap-width/title.html %} (stylus-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">

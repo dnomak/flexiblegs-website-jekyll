@@ -8,7 +8,7 @@ permalink: /learn/auto/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>auto</span>) (css)</div>
+      <div class="dn-style--title">{% include learn/auto/title.html %} (css)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -38,7 +38,7 @@ permalink: /learn/auto/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>auto</span>) (bem)</div>
+      <div class="dn-style--title">{% include learn/auto/title.html %} (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -68,7 +68,7 @@ permalink: /learn/auto/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>auto</span>) (scss-plus)</div>
+      <div class="dn-style--title">{% include learn/auto/title.html %} (scss-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -106,7 +106,7 @@ permalink: /learn/auto/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>auto</span>) (sass-plus)</div>
+      <div class="dn-style--title">{% include learn/auto/title.html %} (sass-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -142,7 +142,7 @@ permalink: /learn/auto/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>auto</span>) (less-plus)</div>
+      <div class="dn-style--title">{% include learn/auto/title.html %} (less-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -180,7 +180,7 @@ permalink: /learn/auto/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>auto</span>) (stylus-plus)</div>
+      <div class="dn-style--title">{% include learn/auto/title.html %} (stylus-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">

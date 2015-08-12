@@ -8,7 +8,7 @@ permalink: /learn/not-first/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (css)</div>
+      <div class="dn-style--title">{% include learn/not-first/title.html %} (css)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -38,7 +38,7 @@ permalink: /learn/not-first/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (bem)</div>
+      <div class="dn-style--title">{% include learn/not-first/title.html %} (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -68,7 +68,7 @@ permalink: /learn/not-first/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (scss-plus)</div>
+      <div class="dn-style--title">{% include learn/not-first/title.html %} (scss-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -110,7 +110,7 @@ permalink: /learn/not-first/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (sass-plus)</div>
+      <div class="dn-style--title">{% include learn/not-first/title.html %} (sass-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -149,7 +149,7 @@ permalink: /learn/not-first/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (less-plus)</div>
+      <div class="dn-style--title">{% include learn/not-first/title.html %} (less-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -191,7 +191,7 @@ permalink: /learn/not-first/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>not-first</span>) (stylus-plus)</div>
+      <div class="dn-style--title">{% include learn/not-first/title.html %} (stylus-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">

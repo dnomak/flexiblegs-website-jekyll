@@ -8,7 +8,7 @@ permalink: /learn/hidden/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>hidden</span>) (css)</div>
+      <div class="dn-style--title">{% include learn/hidden/title.html %} (css)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -38,7 +38,7 @@ permalink: /learn/hidden/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>hidden</span>) (bem)</div>
+      <div class="dn-style--title">{% include learn/hidden/title.html %} (bem)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -68,7 +68,7 @@ permalink: /learn/hidden/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>hidden</span>) (scss-plus)</div>
+      <div class="dn-style--title">{% include learn/hidden/title.html %} (scss-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -108,7 +108,7 @@ permalink: /learn/hidden/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>hidden</span>) (sass-plus)</div>
+      <div class="dn-style--title">{% include learn/hidden/title.html %} (sass-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -145,7 +145,7 @@ permalink: /learn/hidden/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>hidden</span>) (less-plus)</div>
+      <div class="dn-style--title">{% include learn/hidden/title.html %} (less-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -185,7 +185,7 @@ permalink: /learn/hidden/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">col(<span>hidden</span>) (stylus-plus)</div>
+      <div class="dn-style--title">{% include learn/hidden/title.html %} (stylus-plus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
