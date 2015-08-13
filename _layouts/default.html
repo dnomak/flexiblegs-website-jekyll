@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html>
+{% if page.language == 'en' %}
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+{% endif %}
+{% if page.language == 'tr' %}
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="tr-TR" lang="tr-TR">
+{% endif %}
   {% include head.html %}
   <body>
     <section class="wrap xl-gutter-24 xl-outside-24 xl-top lg-1">
