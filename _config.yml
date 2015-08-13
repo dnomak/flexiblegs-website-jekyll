@@ -6,9 +6,13 @@ url: "http://flexible.gs" # the base hostname & protocol for your site
 markdown: kramdown
 
 # Multiple languages
-gems: ['jekyll-multiple-languages']
+gems:
+  - jekyll-multiple-languages
+  - jekyll-sitemap
 
-languages: ['en', 'tr']
+languages:
+  - en
+  - tr
 
 # If not config, the first of languages will be the default
 language_default: 'en'
@@ -42,3 +46,5 @@ t:
       title: "Motivasyon"
     future:
       title: "Gelecek"
+
+sitemap: true
