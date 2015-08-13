@@ -5,12 +5,11 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "carbon-ads",
+  "normalize",
   "flexiblegs",
   "font-awesome",
-  "normalize",
-  "style",
   "base",
+  "style",
   "browser",
   "button",
   "content",
@@ -20,5 +19,6 @@
   "menu",
   "tag",
   "device",
+  "carbon-ads",
   "breakpoints"
 ;

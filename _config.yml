@@ -1,11 +1,8 @@
-# Site settings
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://flexible.gs" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://flexible.gs"
 
-# Build settings
 markdown: kramdown
 
-# Multiple languages
 gems:
   - jekyll-multiple-languages
   - jekyll-sitemap
@@ -14,7 +11,6 @@ languages:
   - en
   - tr
 
-# If not config, the first of languages will be the default
 language_default: 'en'
 
 fill_default_content: true
@@ -48,3 +44,6 @@ t:
       title: "Gelecek"
 
 sitemap: true
+
+sass:
+  style: compressed
