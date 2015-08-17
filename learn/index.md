@@ -51,7 +51,7 @@ permalink: /learn/
           {% endif %}
           <div class="dn-space-8"></div>
           {% if page.language == 'en' %}
-            <p>For browser compatability <b>-ms</b>, <b>-moz</b> ve <b>-webkit</b> aren't added to the samples.</p>
+            <p>For browser compatability <b>-ms</b>, <b>-moz</b> and <b>-webkit</b> aren't added to the samples.</p>
           {% endif %}
           {% if page.language == 'tr' %}
             <p>Tarayıcı uyumluluğu için gereken <b>-ms</b>, <b>-moz</b> ve <b>-webkit</b> yazımları eklenmemiştir.</p>
