@@ -1,6 +1,6 @@
 ---
 layout: default
-title: wrap(masonry,@width)
+title: wrap(masonry,@col)
 permalink: /learn/masonry/
 ---
 
