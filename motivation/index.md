@@ -24,7 +24,7 @@ permalink: /motivation/
           <li><a href="https://github.com/showcases/design-essentials">github.com</a></li>
           <li><a href="http://sass-lang.com/community">sass-lang.com</a></li>
           <li><a href="http://lesscss.org/usage/#frameworks-using-less-grid-systems">lesscss.org</a></li>
-          <li><a href="https://github.com/stylus/stylus/wiki">github.com/stylus</a></li>
+          <li><a href="https://github.com/stylus/stylus/wiki">stylus-lang.com</a></li>
           <li><a href="http://sassbreak.com/resources">sassbreak.com</a></li>
           <li><a href="http://webrazzi.com/2015/04/24/flexible-grid-system-turkiye-github">webrazzi.com</a></li>
           <li><a href="http://www.mserdark.com/haftanin-ozeti-4">mserdark.com</a></li>

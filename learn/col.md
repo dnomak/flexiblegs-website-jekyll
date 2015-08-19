@@ -13,7 +13,7 @@ permalink: /learn/col/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap"&gt;<br/><!--
           -->  &lt;div class="<span>col</span>"&gt;&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
@@ -41,7 +41,7 @@ permalink: /learn/col/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap"&gt;<br/><!--
           -->  &lt;div class="<span>wrap__col</span>"&gt;&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
@@ -72,7 +72,7 @@ permalink: /learn/col/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  &__item {<br/><!--
@@ -108,7 +108,7 @@ permalink: /learn/col/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  &__item<br/><!--
@@ -142,7 +142,7 @@ permalink: /learn/col/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  &__item {<br/><!--
@@ -178,7 +178,7 @@ permalink: /learn/col/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  &__item<br/><!--

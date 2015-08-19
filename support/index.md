@@ -54,28 +54,26 @@ permalink: /support/
             <div class="dn-space-16"></div>
           </div>
         </div>
-        <div class="gray">
-          {% if page.language == 'en' %}
-            <p>If you use <b>Responsive Design</b> because of <b>Media Queries</b> we support <b>Internet Explorer 9 and +</b> versions.</p>
-          {% endif %}
-          {% if page.language == 'tr' %}
-            <p><b>Responsive Design</b> olarak kodlama yapıyorsak <b>Media Queries</b> kullanımından kaynaklı <b>Internet Explorer 9 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz.</p>
-          {% endif %}
-          <div class="dn-space-8"></div>
-          {% if page.language == 'en' %}
-            <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +</b> versions.</p>
-          {% endif %}
-          {% if page.language == 'tr' %}
-            <p><b>Flexbox</b> özelliğini kullanıyorsak <b>Internet Explorer 10 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz.</p>
-          {% endif %}
-          <div class="dn-space-8"></div>
-          {% if page.language == 'en' %}
-            <p>Other than the two exceptions above we supprt all the major desktop and mobile browsers.</p>
-          {% endif %}
-          {% if page.language == 'tr' %}
-            <p>Yukarıdaki iki durum dışında tüm masaüstü ve mobil tarayıcılara destek verilmektedir.</p>
-          {% endif %}
-        </div>
+        {% if page.language == 'en' %}
+          <p>If you use <b>Responsive Design</b> because of <b>Media Queries</b> we support <b>Internet Explorer 9 and +</b> versions.</p>
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <p><b>Responsive Design</b> olarak kodlama yapıyorsak <b>Media Queries</b> kullanımından kaynaklı <b>Internet Explorer 9 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz.</p>
+        {% endif %}
+        <div class="dn-space-8"></div>
+        {% if page.language == 'en' %}
+          <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +</b> versions.</p>
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <p><b>Flexbox</b> özelliğini kullanıyorsak <b>Internet Explorer 10 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz.</p>
+        {% endif %}
+        <div class="dn-space-8"></div>
+        {% if page.language == 'en' %}
+          <p>Other than the two exceptions above we supprt all the major desktop and mobile browsers.</p>
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <p>Yukarıdaki iki durum dışında tüm masaüstü ve mobil tarayıcılara destek verilmektedir.</p>
+        {% endif %}
       </div>
     </div>
   </div>

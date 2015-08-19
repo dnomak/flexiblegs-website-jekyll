@@ -13,7 +13,7 @@ permalink: /learn/outside/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap xl-gutter-24 <span>xl-outside-24</span>"&gt;<br/><!--
           -->  &lt;div class="col xl-3-12"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col xl-6-12"&gt;02&lt;/div&gt;<br/><!--
@@ -44,7 +44,7 @@ permalink: /learn/outside/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap wrap--xl-gutter-24 <span>wrap--xl-outside-24</span>"&gt;<br/><!--
           -->  &lt;div class="wrap__col wrap__col--xl-3-12"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col wrap__col--xl-6-12"&gt;02&lt;/div&gt;<br/><!--
@@ -78,7 +78,7 @@ permalink: /learn/outside/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/outside/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include wrap(gutter,24px);<br/><!--
@@ -125,7 +125,7 @@ permalink: /learn/outside/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/outside/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +wrap(gutter,24px)<br/><!--
@@ -167,7 +167,7 @@ permalink: /learn/outside/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/outside/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .wrap(gutter,24px);<br/><!--
@@ -214,7 +214,7 @@ permalink: /learn/outside/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/outside/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  wrap(gutter,24px)<br/><!--

@@ -13,13 +13,12 @@ permalink: /learn/col-row/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap"&gt;<br/><!--
           -->  &lt;div class="col <span>xl-1-3</span>"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col <span>xl-1-3</span>"&gt;02&lt;/div&gt;<br/><!--
           -->  &lt;div class="col <span>xl-1-3</span>"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
-          --><div class="comment">&lt;!-- 1-1 --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-2 --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-3, 2-3 --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-4, 2-4, 3-4 --&gt;</div><!--
@@ -31,6 +30,7 @@ permalink: /learn/col-row/
           --><div class="comment">&lt;!-- 1-10, 2-10, 3-10, 4-10, 5-10, 6-10, 7-10, 8-10, 9-10, --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-11, 2-11, 3-11, 4-11, 5-11, 6-11, 7-11, 8-11, 9-11, 10-11, --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-12, 2-12, 3-12, 4-12, 5-12, 6-12, 7-12, 8-12, 9-12, 10-12, 11-12, --&gt;</div><!--
+          --><div class="comment">&lt;!-- 1-1 --&gt;</div><!--
         --></pre>
         {% include learn/col-row/compiled.html %}
       </div>
@@ -55,7 +55,7 @@ permalink: /learn/col-row/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap"&gt;<br/><!--
           -->  &lt;div class="wrap__col <span>wrap__col--xl-1-3</span>"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col <span>wrap__col--xl-1-3</span>"&gt;02&lt;/div&gt;<br/><!--
@@ -100,7 +100,7 @@ permalink: /learn/col-row/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col-row/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  &__item {<br/><!--
@@ -137,7 +137,7 @@ permalink: /learn/col-row/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col-row/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  &__item<br/><!--
@@ -172,7 +172,7 @@ permalink: /learn/col-row/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col-row/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  &__item {<br/><!--
@@ -209,7 +209,7 @@ permalink: /learn/col-row/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/col-row/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  &__item<br/><!--

@@ -13,7 +13,7 @@ permalink: /learn/wrap/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="<span>wrap</span>"&gt;<br/><!--
           --><br/><!--
           -->&lt;/div&gt;<!--
@@ -41,7 +41,7 @@ permalink: /learn/wrap/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="<span>wrap</span>"&gt;<br/><!--
           --><br/><!--
           -->&lt;/div&gt;<!--
@@ -72,7 +72,7 @@ permalink: /learn/wrap/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/wrap/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include <span>wrap</span>;<br/><!--
               -->}<!--
@@ -105,7 +105,7 @@ permalink: /learn/wrap/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/wrap/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +<span>wrap</span><br/><!--
               --> <!--
@@ -138,7 +138,7 @@ permalink: /learn/wrap/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/wrap/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .<span>wrap</span>;<br/><!--
               -->}<!--
@@ -171,7 +171,7 @@ permalink: /learn/wrap/
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           {% include learn/wrap/dynamic.html %}
           <div class="col">
-            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  <span>wrap</span>()<br/><!--
               --> <!--

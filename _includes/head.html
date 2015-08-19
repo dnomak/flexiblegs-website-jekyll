@@ -6,9 +6,6 @@
   <link rel="alternate" hreflang="en" href="http://flexible.gs/" />
   <link rel="alternate" hreflang="tr" href="http://flexible.gs/tr/" />
 
-  <title>{% if page.dynamic_title %}{{ site.t.[page.language].[page.dynamic_title].title }} - flexible.gs{% else %}{{ page.title }} - flexible.gs ({{ page.language }}){% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
@@ -44,4 +41,7 @@
     ga('create', 'UA-25094721-4', 'auto');
     ga('send', 'pageview');
   </script>
+
+  <title>{% if page.dynamic_title %}{{ site.t.[page.language].[page.dynamic_title].title }} - flexible.gs{% else %}{{ page.title }} ({{ page.language }}) - flexible.gs {% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 </head>
