@@ -14,10 +14,10 @@ permalink: /motivation/
     <div class="dn-browser-body__item">
       <div class="dn-content">
         {% if page.language == 'en' %}
-          <p>The links that makes us super happy and motivated :)</p>
+          <p>The links that makes us super happy and motivated.</p>
         {% endif %}
         {% if page.language == 'tr' %}
-          <p>Projeye dört elle sarılmamızı sağlayan bazı linkler :)</p>
+          <p>Projeye dört elle sarılmamızı sağlayan bazı linkler.</p>
         {% endif %}
         <div class="dn-space-16"></div>
         <ul>

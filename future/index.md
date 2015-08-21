@@ -21,10 +21,10 @@ permalink: /future/
         </form>
         <div class="dn-space-16"></div>
         {% if page.language == 'en' %}
-          <p>To make our future plans a reality you can support us via PayPal :)</p>
+          <p>To make our future plans a reality you can support us via PayPal.</p>
         {% endif %}
         {% if page.language == 'tr' %}
-          <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal aracılığıyla bağış yapabilirsiniz :)</p>
+          <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal aracılığıyla bağış yapabilirsiniz.</p>
         {% endif %}
         <div class="dn-space-16"></div>
         {% if page.language == 'en' %}
@@ -56,11 +56,6 @@ permalink: /future/
         {% endif %}
         {% if page.language == 'tr' %}
           <ul>
-            <li>Flexible Grid System
-              <ul>
-                <li>Scss, Sass, Less ve Stylus</li>
-              </ul>
-            </li>
             <li>Flexible Frontend Framework
               <ul>
                 <li>Flexible Fonticons</li>
