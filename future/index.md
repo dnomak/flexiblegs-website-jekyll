@@ -29,11 +29,6 @@ permalink: /future/
         <div class="dn-space-16"></div>
         {% if page.language == 'en' %}
           <ul>
-            <li>Flexible Grid System
-              <ul>
-                <li>Scss, Sass, Less and Stylus</li>
-              </ul>
-            </li>
             <li>Flexible Frontend Framework
               <ul>
                 <li>Flexible Fonticons</li>

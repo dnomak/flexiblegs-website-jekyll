@@ -8,7 +8,12 @@
       <a href="/" class="dn-tag dn-tag--blue dn-tag--center">English</a>
     {% endif %}
     <div class="dn-style--title">
+    {% if page.language == 'en' %}
       Menu
+    {% endif %}
+    {% if page.language == 'tr' %}
+      Menü
+    {% endif %}
     </div>
   </div>
   <div class="dn-browser-body dn-browser-body--menu">
