@@ -14,7 +14,7 @@ permalink: /install/
     <div class="dn-browser-body__item">
       <div class="dn-content">
         {% if page.language == 'en' %}
-          <p>Before installation, we assume that you know <b>HTML</b>, <b>CSS</b> or <b>Sass</b>, <b>Less</b> or <b>Stylus</b>.</p>
+          <p>Before installation, we assume that you know <b>HTML</b>, <b>CSS</b>, <b>Sass</b>, <b>Less</b> or <b>Stylus</b>.</p>
         {% endif %}
         {% if page.language == 'tr' %}
           <p>Kuruluma başlamadan önce <b>HTML</b>, <b>CSS</b> veya <b>Sass</b>, <b>Less</b> yada <b>Stylus</b> bilmeniz gerekmektedir.</p>
@@ -37,7 +37,7 @@ permalink: /install/
             {% endif %}
             <div class="dn-space-8"></div>
             {% if page.language == 'en' %}
-              <p>If you choose the Static method. You can use CSS <b>class</b>es to code your<b>HTML</b>.</p>
+              <p>If you choose the Static method. You can use CSS <b>class</b>es to code your <b>HTML</b>.</p>
             {% endif %}
             {% if page.language == 'tr' %}
               <p>Statik yönetimi tercih ederseniz Flexible Grid System'in CSS ile hazırlanmış sabit <b>class</b>larını kullanarak <b>HTML</b> kısmında kodlama yapabilirsiniz.</p>
