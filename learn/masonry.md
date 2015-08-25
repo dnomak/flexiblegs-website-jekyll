@@ -24,7 +24,7 @@ permalink: /learn/masonry/
           -->  &lt;div class="col xl-1-2"&gt;07&lt;/div&gt;<br/><!--
           -->  &lt;div class="col xl-1-1"&gt;08&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
-          --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 --&gt;</div><!--
+          --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6 --&gt;</div><!--
         --></pre>
         {% include learn/masonry/compiled.html %}
       </div>
@@ -60,7 +60,7 @@ permalink: /learn/masonry/
           -->  &lt;div class="wrap__col wrap__col--xl-1-2"&gt;07&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col wrap__col--xl-1-1"&gt;08&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
-          --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 --&gt;</div><!--
+          --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6 --&gt;</div><!--
         --></pre>
         {% include learn/masonry/compiled.html %}
       </div>
