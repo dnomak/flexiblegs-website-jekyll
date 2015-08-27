@@ -47,12 +47,18 @@ permalink: /install/
               <ul>
                 <li><a href="/install/css/">CSS</a> or <a href="/install/bem/">BEM</a></li>
                 <li><a href="/install/scss/">Scss</a></li>
+                <li><span class="line-through">Sass</span></li>
+                <li><span class="line-through">Less</span></li>
+                <li><span class="line-through">Stylus</span></li>
               </ul>
             {% endif %}
             {% if page.language == 'tr' %}
               <ul>
                 <li><a href="/tr/install/css/">CSS</a> veya <a href="/tr/install/bem/">BEM</a></li>
-                <li><a href="/install/scss/">Scss</a></li>
+                <li><a href="/tr/install/scss/">Scss</a></li>
+                <li><span class="line-through">Sass</span></li>
+                <li><span class="line-through">Less</span></li>
+                <li><span class="line-through">Stylus</span></li>
               </ul>
             {% endif %}
           </div>
