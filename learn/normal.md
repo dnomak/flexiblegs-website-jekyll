@@ -80,7 +80,7 @@ permalink: /learn/normal/
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include <span>wrap(normal)</span>;<br/><!--
-              -->  @include wrap(gutter,24px);<br/><!--
+              -->  @include wrap(gutter,24);<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
               -->    &.one {<br/><!--
@@ -127,7 +127,7 @@ permalink: /learn/normal/
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +<span>wrap(normal)</span><br/><!--
-              -->  +wrap(gutter,24px)<br/><!--
+              -->  +wrap(gutter,24)<br/><!--
               -->  &__item<br/><!--
               -->    +col<br/><!--
               -->    &.one<br/><!--
@@ -169,7 +169,7 @@ permalink: /learn/normal/
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .<span>wrap(normal)</span>;<br/><!--
-              -->  .wrap(gutter,24px);<br/><!--
+              -->  .wrap(gutter,24);<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
               -->    &.one {<br/><!--
@@ -216,7 +216,7 @@ permalink: /learn/normal/
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  <span>wrap(normal)</span><br/><!--
-              -->  wrap(gutter,24px)<br/><!--
+              -->  wrap(gutter,24)<br/><!--
               -->  &__item<br/><!--
               -->    col()<br/><!--
               -->    &.one<br/><!--

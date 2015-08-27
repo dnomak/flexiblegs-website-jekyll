@@ -81,8 +81,8 @@ permalink: /learn/outside/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
-              -->  @include wrap(gutter,24px);<br/><!--
-              -->  @include <span>wrap(outside,24px)</span>;<br/><!--
+              -->  @include wrap(gutter,24);<br/><!--
+              -->  @include <span>wrap(outside,24)</span>;<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
               -->    &.one {<br/><!--
@@ -128,8 +128,8 @@ permalink: /learn/outside/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
-              -->  +wrap(gutter,24px)<br/><!--
-              -->  +<span>wrap(outside,24px)</span><br/><!--
+              -->  +wrap(gutter,24)<br/><!--
+              -->  +<span>wrap(outside,24)</span><br/><!--
               -->  &__item<br/><!--
               -->    +col<br/><!--
               -->    &.one<br/><!--
@@ -170,8 +170,8 @@ permalink: /learn/outside/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
-              -->  .wrap(gutter,24px);<br/><!--
-              -->  .<span>wrap(outside,24px)</span>;<br/><!--
+              -->  .wrap(gutter,24);<br/><!--
+              -->  .<span>wrap(outside,24)</span>;<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
               -->    &.one {<br/><!--
@@ -217,8 +217,8 @@ permalink: /learn/outside/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
-              -->  wrap(gutter,24px)<br/><!--
-              -->  <span>wrap(outside,24px)</span><br/><!--
+              -->  wrap(gutter,24)<br/><!--
+              -->  <span>wrap(outside,24)</span><br/><!--
               -->  &__item<br/><!--
               -->    col()<br/><!--
               -->    &.one<br/><!--

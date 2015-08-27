@@ -80,7 +80,7 @@ permalink: /learn/first/
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include wrap(flexbox);<br/><!--
-              -->  @include wrap(gutter,24px);<br/><!--
+              -->  @include wrap(gutter,24);<br/><!--
               -->  @include wrap(3);<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
@@ -122,7 +122,7 @@ permalink: /learn/first/
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +wrap(flexbox)<br/><!--
-              -->  +wrap(gutter,24px)<br/><!--
+              -->  +wrap(gutter,24)<br/><!--
               -->  +wrap(3)<br/><!--
               -->  &__item<br/><!--
               -->    +col<br/><!--
@@ -161,7 +161,7 @@ permalink: /learn/first/
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .wrap(flexbox);<br/><!--
-              -->  .wrap(gutter,24px);<br/><!--
+              -->  .wrap(gutter,24);<br/><!--
               -->  .wrap(3);<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
@@ -203,7 +203,7 @@ permalink: /learn/first/
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  wrap(flexbox)<br/><!--
-              -->  wrap(gutter,24px)<br/><!--
+              -->  wrap(gutter,24)<br/><!--
               -->  wrap(3)<br/><!--
               -->  &__item<br/><!--
               -->    col()<br/><!--

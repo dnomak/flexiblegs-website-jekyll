@@ -12,9 +12,9 @@ permalink: /install/scss-plus/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
-      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss-plus/master/flexiblegs.scss" download>Download</a>
+      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss-plus/master/flexiblegs-plus.scss" download>Download</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
-        --><div class="comment">@import "<span>flexiblegs</span>";</div><!--
+        --><div class="comment">@import "<span>flexiblegs-plus</span>";</div><!--
       --></pre>
       <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>

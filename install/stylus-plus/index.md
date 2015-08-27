@@ -12,9 +12,9 @@ permalink: /install/stylus-plus/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
-      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs.styl" download>Download</a>
+      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-plus.styl" download>Download</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
-        --><div class="comment">@import '<span>flexiblegs</span>'</div><!--
+        --><div class="comment">@import '<span>flexiblegs-plus</span>'</div><!--
       --></pre>
       <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>

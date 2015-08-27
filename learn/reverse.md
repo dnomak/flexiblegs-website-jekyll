@@ -81,7 +81,7 @@ permalink: /learn/reverse/
               -->  @include wrap;<br/><!--
               -->  @include wrap(flexbox);<br/><!--
               -->  @include <span>wrap(reverse)</span>;<br/><!--
-              -->  @include wrap(gutter,24px);<br/><!--
+              -->  @include wrap(gutter,24);<br/><!--
               -->  @include wrap(3);<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
@@ -121,7 +121,7 @@ permalink: /learn/reverse/
               -->  +wrap<br/><!--
               -->  +wrap(flexbox)<br/><!--
               -->  +<span>wrap(reverse)</span><br/><!--
-              -->  +wrap(gutter,24px)<br/><!--
+              -->  +wrap(gutter,24)<br/><!--
               -->  +wrap(3)<br/><!--
               -->  &__item<br/><!--
               -->    +col<!--
@@ -159,7 +159,7 @@ permalink: /learn/reverse/
               -->  .wrap;<br/><!--
               -->  .wrap(flexbox);<br/><!--
               -->  .<span>wrap(reverse)</span>;<br/><!--
-              -->  .wrap(gutter,24px);<br/><!--
+              -->  .wrap(gutter,24);<br/><!--
               -->  .wrap(3);<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
@@ -199,7 +199,7 @@ permalink: /learn/reverse/
               -->  wrap()<br/><!--
               -->  wrap(flexbox)<br/><!--
               -->  <span>wrap(reverse)</span><br/><!--
-              -->  wrap(gutter,24px)<br/><!--
+              -->  wrap(gutter,24)<br/><!--
               -->  wrap(3)<br/><!--
               -->  &__item<br/><!--
               -->    col()<!--

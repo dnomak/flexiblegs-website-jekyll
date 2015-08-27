@@ -73,6 +73,16 @@ pre {
     border-radius: 8px;
   }
 }
+
+::-moz-selection {
+  color: #fff;
+  background: #1ECE6D;
+}
+::selection {
+  color: #fff;
+  background: #1ECE6D;
+}
+
 #css,
 #bem,
 #scss-plus,

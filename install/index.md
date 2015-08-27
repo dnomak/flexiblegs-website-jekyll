@@ -46,19 +46,13 @@ permalink: /install/
             {% if page.language == 'en' %}
               <ul>
                 <li><a href="/install/css/">CSS</a> or <a href="/install/bem/">BEM</a></li>
-                <li><span class="line-through">Scss</span></li>
-                <li><span class="line-through">Sass <a href="https://github.com/flexiblegs/flexiblegs-sass">(Preparing)</a></span></li>
-                <li><span class="line-through">Less</span></li>
-                <li><span class="line-through">Stylus</span></li>
+                <li><a href="/install/scss/">Scss</a></li>
               </ul>
             {% endif %}
             {% if page.language == 'tr' %}
               <ul>
                 <li><a href="/tr/install/css/">CSS</a> veya <a href="/tr/install/bem/">BEM</a></li>
-                <li><span class="line-through">Scss</span></li>
-                <li><span class="line-through">Sass <a href="https://github.com/flexiblegs/flexiblegs-sass">(Hazırlanıyor)</a></span></li>
-                <li><span class="line-through">Less</span></li>
-                <li><span class="line-through">Stylus</span></li>
+                <li><a href="/install/scss/">Scss</a></li>
               </ul>
             {% endif %}
           </div>

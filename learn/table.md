@@ -80,7 +80,7 @@ permalink: /learn/table/
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include <span>wrap(table)</span>;<br/><!--
-              -->  @include wrap(gutter,24px);<br/><!--
+              -->  @include wrap(gutter,24);<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
               -->    &.one {<br/><!--
@@ -124,7 +124,7 @@ permalink: /learn/table/
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +<span>wrap(table)</span><br/><!--
-              -->  +wrap(gutter,24px)<br/><!--
+              -->  +wrap(gutter,24)<br/><!--
               -->  &__item<br/><!--
               -->    +col<br/><!--
               -->    &.one<br/><!--
@@ -164,7 +164,7 @@ permalink: /learn/table/
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .<span>wrap(table)</span>;<br/><!--
-              -->  .wrap(gutter,24px);<br/><!--
+              -->  .wrap(gutter,24);<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
               -->    &.one {<br/><!--
@@ -208,7 +208,7 @@ permalink: /learn/table/
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  <span>wrap(table)</span><br/><!--
-              -->  wrap(gutter,24px)<br/><!--
+              -->  wrap(gutter,24)<br/><!--
               -->  &__item<br/><!--
               -->    col()<br/><!--
               -->    &.one<br/><!--

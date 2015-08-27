@@ -79,7 +79,7 @@ permalink: /learn/auto/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
-              -->  @include wrap(gutter,24px);<br/><!--
+              -->  @include wrap(gutter,24);<br/><!--
               -->  @include <span>wrap(auto)</span>;<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
@@ -117,7 +117,7 @@ permalink: /learn/auto/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
-              -->  +wrap(gutter,24px)<br/><!--
+              -->  +wrap(gutter,24)<br/><!--
               -->  +<span>wrap(auto)</span><br/><!--
               -->  &__item<br/><!--
               -->    +col<!--
@@ -153,7 +153,7 @@ permalink: /learn/auto/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
-              -->  .wrap(gutter,24px);<br/><!--
+              -->  .wrap(gutter,24);<br/><!--
               -->  .<span>wrap(auto)</span>;<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
@@ -191,7 +191,7 @@ permalink: /learn/auto/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
-              -->  wrap(gutter,24px)<br/><!--
+              -->  wrap(gutter,24)<br/><!--
               -->  <span>wrap(auto)</span><br/><!--
               -->  &__item<br/><!--
               -->    col()<!--

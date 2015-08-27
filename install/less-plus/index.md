@@ -12,9 +12,9 @@ permalink: /install/less-plus/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
-      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-less-plus/master/flexiblegs.less" download>Download</a>
+      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-less-plus/master/flexiblegs-plus.less" download>Download</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
-        --><div class="comment">@import "<span>flexiblegs.less</span>";</div><!--
+        --><div class="comment">@import "<span>flexiblegs-plus.less</span>";</div><!--
       --></pre>
       <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>
