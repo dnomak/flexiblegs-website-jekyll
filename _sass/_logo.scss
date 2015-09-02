@@ -17,3 +17,22 @@
     opacity: 0.8;
   }
 }
+
+.ca-logo {
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+  &-group {
+    &--blue {
+      background: url(/img/ca-logo-group--blue.png);
+      background-size: 213.5px 49px;
+      width: 213.5px;
+      height: 49px;
+    }
+  }
+}
