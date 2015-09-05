@@ -17,6 +17,11 @@ permalink: /install/less-plus/
         --><div class="comment">@import "<span>flexiblegs-plus.less</span>";</div><!--
       --></pre>
       <div class="dn-space-40"></div>
+      <a class="dn-title" href="https://www.npmjs.com/package/flexiblegs-less-plus">npm</a>
+      <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
+        --><div class="comment">$ npm install --save <span>flexiblegs-less-plus</span></div><!--
+      --></pre>
+      <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-less-plus</span></div><!--

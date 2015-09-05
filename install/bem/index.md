@@ -19,6 +19,11 @@ permalink: /install/bem/
         -->&lt;/head&gt;</div><!--
       --></pre>
       <div class="dn-space-40"></div>
+      <a class="dn-title" href="https://www.npmjs.com/package/flexiblegs-bem">npm</a>
+      <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
+        --><div class="comment">$ npm install --save <span>flexiblegs-bem</span></div><!--
+      --></pre>
+      <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-bem</span></div><!--

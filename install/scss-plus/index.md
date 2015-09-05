@@ -17,6 +17,11 @@ permalink: /install/scss-plus/
         --><div class="comment">@import "<span>flexiblegs-plus</span>";</div><!--
       --></pre>
       <div class="dn-space-40"></div>
+      <a class="dn-title" href="https://www.npmjs.com/package/flexiblegs-scss-plus">npm</a>
+      <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
+        --><div class="comment">$ npm install --save <span>flexiblegs-scss-plus</span></div><!--
+      --></pre>
+      <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-scss-plus</span></div><!--
