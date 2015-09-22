@@ -17,14 +17,14 @@ permalink: /install/
           <p>Before installation, we assume that you know <b>HTML</b>, <b>CSS</b>, <b>Sass</b>, <b>Less</b> or <b>Stylus</b>.</p>
         {% endif %}
         {% if page.language == 'tr' %}
-          <p>Kuruluma başlamadan önce <b>HTML</b>, <b>CSS</b> veya <b>Sass</b>, <b>Less</b> yada <b>Stylus</b> bilmeniz gerekmektedir.</p>
+          <p>Kuruluma başlamadan önce <b>HTML</b>, <b>CSS</b> veya <b>Sass</b>, <b>Less</b> ya da <b>Stylus</b> bilmeniz gerekmektedir.</p>
         {% endif %}
         <div class="dn-space-16"></div>
         {% if page.language == 'en' %}
           <p>There are two methods of developing with Flexible Grid System. These methods are Static and Dynamic. You can use the both method at the same time or independently.</p>
         {% endif %}
         {% if page.language == 'tr' %}
-          <p>Flexible Grid System ile kod yazmanın iki yöntemi bulunmaktadır. Bunlar Statik ve Dinamik olmak üzere ikiye ayrılır. İki yöntemi aynı anda yada ayrı ayrı kullanmanız mümkündür.</p>
+          <p>Flexible Grid System ile kod yazmanın iki yöntemi bulunmaktadır. Bunlar Statik ve Dinamik olmak üzere ikiye ayrılır. İki yöntemi aynı anda ya da ayrı ayrı kullanmanız mümkündür.</p>
         {% endif %}
         <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
           <div class="col">

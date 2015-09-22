@@ -10,12 +10,13 @@ $breakpoint: (
 $wrap-col:     (auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
 $wrap-prop:    (table, flexbox, normal, left, center, right, top, middle, bottom, between, around, baseline, reverse, not-reverse);
 $col-row:      (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
+$col-width:    ();
 $col-prop:     (hidden, not-hidden, first, not-first, last, not-last);
-$wrap-gutter:  (0, 8, 16, 24, 40);
-$wrap-outside: (0, 8, 16, 24, 40);
+$wrap-gutter:  (0, 8, 12, 16, 24, 40);
+$wrap-outside: (0, 8, 12, 16, 24, 40);
 $wrap-masonry: (2, 3, 4, 5, 6);
 
-/*! Flexible Grid System 5.3.4 | Scss Plus | MIT License | flexible.gs */
+/*! Flexible Grid System 5.4.0 | Scss Plus | MIT License | flexible.gs */
 
 @mixin wrap($prop: null, $val: null) {
   @if $prop == null {
@@ -27,6 +28,9 @@ $wrap-masonry: (2, 3, 4, 5, 6);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    > * {
+      display: inline-block;
+    }
   }
   @else if $prop == table {
     display: table;
@@ -221,13 +225,15 @@ $wrap-masonry: (2, 3, 4, 5, 6);
 
 @mixin col($prop: null, $val: null) {
   @if $prop == null {
-    display: inline-block;
     min-height: 1px;
     font-size: 1rem;
     vertical-align: middle;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  }
+  @else if $prop == width {
+    width: #{$val}#{"px"};
   }
   @else if $prop == hidden {
     display: none;
@@ -260,17 +266,10 @@ $wrap-masonry: (2, 3, 4, 5, 6);
   }
 }
 
-/*! Flexible Grid System 5.3.4 | Scss | MIT License | flexible.gs */
+/*! Flexible Grid System 5.4.0 | Scss | MIT License | flexible.gs */
 
 .wrap {
-  display: block;
-  width: 100%;
-  font-size: 0;
-  letter-spacing: 0;
-  text-align: left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  @include wrap;
 }
 @each $method in $syntax {
   @if $method == "css" {
@@ -544,6 +543,18 @@ $wrap-masonry: (2, 3, 4, 5, 6);
                 }
               }
             }
+          }
+        }
+      }
+      @each $item in $col-width {
+        @if $method == "css" {
+          .#{$prop}-width-#{$item} {
+            @include col(width, $val: $item);
+          }
+        }
+        @else if $method == "bem" {
+          .wrap__col--#{$prop}-width-#{$item} {
+            @include col(width, $val: $item);
           }
         }
       }
@@ -883,6 +894,18 @@ $wrap-masonry: (2, 3, 4, 5, 6);
                   }
                 }
               }
+            }
+          }
+        }
+        @each $item in $col-width {
+          @if $method == "css" {
+            .#{$prop}-width-#{$item} {
+              @include col(width, $val: $item);
+            }
+          }
+          @else if $method == "bem" {
+            .wrap__col--#{$prop}-width-#{$item} {
+              @include col(width, $val: $item);
             }
           }
         }

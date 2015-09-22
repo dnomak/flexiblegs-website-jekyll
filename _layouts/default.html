@@ -10,10 +10,6 @@
     <section class="wrap xl-gutter-24 xl-outside-24 xl-top lg-1">
       <article class="col xl-9-12">
         {{ content }}
-        <div class="dn-disqus">
-          <div id="disqus_thread"></div>
-        </div>
-        <div class="dn-space-24"></div>
         <div class="wrap xl-flexbox xl-between xl-auto lg-1 lg-center">
           <div class="col lg-hidden">
             <span class="dn-style--footer-link">
@@ -37,8 +33,7 @@
           </div>
         </div>
         <div class="dn-space-24"></div>
-        <div class="dn-space-24 lg-hidden"></div>
-        <div class="wrap xl-center xl-auto xl-gutter-16" style="color: #a1a1a1;">
+        <div class="wrap xl-center xl-auto xl-gutter-12" style="color: #a1a1a1;">
           <div class="col">
             {% if page.language == 'en' %}
               Sponsored by
@@ -48,7 +43,9 @@
             {% endif %}
           </div>
           <div class="col">
-            <a href="/camiila" class="ca-logo ca-logo-group--blue"></a>
+            <a href="/camiila" class="ca-logo">
+              <img src="/img/ca-logo-text--blue.png" alt="">
+            </a>
           </div>
         </div>
         <div class="dn-space-24 lg-hidden"></div>

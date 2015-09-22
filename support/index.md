@@ -58,14 +58,14 @@ permalink: /support/
           <p>If you use <b>Responsive Design</b> because of <b>Media Queries</b> we support <b>Internet Explorer 9 and +</b> versions.</p>
         {% endif %}
         {% if page.language == 'tr' %}
-          <p><b>Responsive Design</b> olarak kodlama yapıyorsak <b>Media Queries</b> kullanımından kaynaklı <b>Internet Explorer 9 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz.</p>
+          <p><b>Responsive Design</b> olarak kodlama yapıyorsak <b>Media Queries</b> kullanımından kaynaklı <b>Internet Explorer 9 ve üzeri</b> versiyonları destekliyoruz.</p>
         {% endif %}
         <div class="dn-space-8"></div>
         {% if page.language == 'en' %}
           <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +</b> versions.</p>
         {% endif %}
         {% if page.language == 'tr' %}
-          <p><b>Flexbox</b> özelliğini kullanıyorsak <b>Internet Explorer 10 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz.</p>
+          <p><b>Flexbox</b> özelliğini kullanıyorsak <b>Internet Explorer 10 ve üzeri</b> versiyonları destekliyoruz.</p>
         {% endif %}
         <div class="dn-space-8"></div>
         {% if page.language == 'en' %}
