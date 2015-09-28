@@ -35,10 +35,10 @@ permalink: /learn/
             --></pre>
             <div class="dn-space-24"></div>
             {% if page.language == 'en' %}
-              <p><b>Compiled View</b></p>
+              <p><i class="fa fa-rocket fa-lg"></i>&nbsp;&nbsp;<b>Compiled View</b></p>
             {% endif %}
             {% if page.language == 'tr' %}
-              <p><b>Derlenmiş Görünüm</b></p>
+              <p><i class="fa fa-rocket fa-lg"></i>&nbsp;&nbsp;<b>Derlenmiş Görünüm</b></p>
             {% endif %}
             <div class="dn-space-8"></div>
             {% if page.language == 'en' %}
