@@ -49,7 +49,7 @@ permalink: /learn/
             {% endif %}
             <div class="dn-space-8"></div>
             {% if page.language == 'en' %}
-              <p>On <b>CSS</b> section static, On <b>Sass</b>, <b>Less</b> or <b>Stylus</b> sections dynamic sections are marked as <b>@variable</b>.</p>
+              <p>On <b>CSS</b> section static, on <b>Sass</b>, <b>Less</b> or <b>Stylus</b> sections dynamic sections are marked as <b>@variable</b>.</p>
             {% endif %}
             {% if page.language == 'tr' %}
               <p><b>CSS</b> kısmında sabit, <b>Sass</b>, <b>Less</b> veya <b>Stylus</b> kısmında dinamik olacak kısımlar <b>@değişken</b> şeklinde belirtilmektedir.</p>

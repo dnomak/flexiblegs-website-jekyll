@@ -38,7 +38,7 @@ permalink: /future/
                 <li>Flexible Front End Framework</li>
                 <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
                 <li>Flexible Front End Editor</li>
-                <li>Flexible Cloud</li>
+                <li>Flexible Cloud (Content Management System)</li>
                 <li>Flexible Shop
                   <ul>
                     <li>Mug</li>
@@ -46,7 +46,7 @@ permalink: /future/
                     <li>Sticker and more :)</li>
                   </ul>
                 </li>
-                <li>Flexible Workspace &amp; Cafe
+                <li>Flexible Space &amp; Cafe
                   <ul>
                     <li>Coffee (Flexible Blend)</li>
                     <li>Carrot Cake and more :)</li>
@@ -59,7 +59,7 @@ permalink: /future/
                 <li>Flexible Front End Framework</li>
                 <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
                 <li>Flexible Front End Editor</li>
-                <li>Flexible Cloud</li>
+                <li>Flexible Cloud (İçerik Yönetim Sistemi)</li>
                 <li>Flexible Shop
                   <ul>
                     <li>Mug</li>
@@ -67,7 +67,7 @@ permalink: /future/
                     <li>Sticker ve daha fazlası :)</li>
                   </ul>
                 </li>
-                <li>Flexible Workspace &amp; Cafe
+                <li>Flexible Space &amp; Cafe
                   <ul>
                     <li>Kahve (Flexible Blend)</li>
                     <li>Havuçlu Kek ve daha fazlası :)</li>
