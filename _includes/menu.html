@@ -3,18 +3,12 @@
     {% include browser-button.html %}
     {% if page.language == 'en' %}
       <a href="http://flexible.gs/tr/" class="dn-tag dn-tag--blue dn-tag--center">Türkçe</a>
+      <div class="dn-style--title">Menu</div>
     {% endif %}
     {% if page.language == 'tr' %}
       <a href="http://flexible.gs/" class="dn-tag dn-tag--blue dn-tag--center">English</a>
+      <div class="dn-style--title">Menü</div>
     {% endif %}
-    <div class="dn-style--title">
-    {% if page.language == 'en' %}
-      Menu
-    {% endif %}
-    {% if page.language == 'tr' %}
-      Menü
-    {% endif %}
-    </div>
   </div>
   <div class="dn-browser-body dn-browser-body--menu">
     <div class="wrap xl-4 xl-right">

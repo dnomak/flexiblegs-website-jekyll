@@ -14,7 +14,7 @@ permalink: /learn/
     <div class="dn-browser-body__item">
       <div class="wrap xl-gutter-24 xl-top xl-center">
         <!-- <div class="col xl-3-10">
-          <div class="dn-space-8"></div>
+          <div class="dn-height-8"></div>
           <iframe width="100%" height="180" src="https://www.youtube.com/embed/Vj7NZ6FiQvo?autoplay=0&amp;showinfo=0&amp;rel=0&amp;start=9" frameborder="0" allowfullscreen="" data-reactid=".0.0.0.0"></iframe>
         </div> -->
         <div class="col xl-7-10 lg-1-1">
@@ -25,36 +25,36 @@ permalink: /learn/
             {% if page.language == 'tr' %}
               <p>Öğrenmeye başlamadan önce <b>Grid System</b> ve <b>Responive Design</b> hakkında bilgi sahibi olmanız gerekmektedir.</p>
             {% endif %}
-            <div class="dn-space-16"></div>
+            <div class="dn-height-16"></div>
             <p><b>Responsive Meta</b></p>
-            <div class="dn-space-16"></div>
+            <div class="dn-height-16"></div>
             <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
               --><div class="comment">&lt;head&gt;<br/><!--
               -->  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br/><!--
               -->&lt;/head&gt;</div><!--
             --></pre>
-            <div class="dn-space-24"></div>
+            <div class="dn-height-24"></div>
             {% if page.language == 'en' %}
               <p><i class="fa fa-rocket fa-lg"></i>&nbsp;&nbsp;<b>Compiled View</b></p>
             {% endif %}
             {% if page.language == 'tr' %}
               <p><i class="fa fa-rocket fa-lg"></i>&nbsp;&nbsp;<b>Derlenmiş Görünüm</b></p>
             {% endif %}
-            <div class="dn-space-8"></div>
+            <div class="dn-height-8"></div>
             {% if page.language == 'en' %}
               <p>Switching to compile view you view the CSS properties of classes and mixins. Having a knowledge about this topic will improve your usage.</p>
             {% endif %}
             {% if page.language == 'tr' %}
               <p>Derlenmiş görünüme geçiş yaparak class veya mixinlerin oluşturduğu CSS özelliklerini görebilirsiniz. Bu konuda bilgi sahibi olmanız kullanım hakimiyetiniz açısından oldukça faydalı olacaktır.</p>
             {% endif %}
-            <div class="dn-space-8"></div>
+            <div class="dn-height-8"></div>
             {% if page.language == 'en' %}
               <p>On <b>CSS</b> section static, on <b>Sass</b>, <b>Less</b> or <b>Stylus</b> sections dynamic sections are marked as <b>@variable</b>.</p>
             {% endif %}
             {% if page.language == 'tr' %}
               <p><b>CSS</b> kısmında sabit, <b>Sass</b>, <b>Less</b> veya <b>Stylus</b> kısmında dinamik olacak kısımlar <b>@değişken</b> şeklinde belirtilmektedir.</p>
             {% endif %}
-            <div class="dn-space-8"></div>
+            <div class="dn-height-8"></div>
             {% if page.language == 'en' %}
               <p>For browser compatability <b>-ms</b>, <b>-moz</b> and <b>-webkit</b> aren't added to the samples.</p>
             {% endif %}
@@ -63,14 +63,14 @@ permalink: /learn/
             {% endif %}
             <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
               <div class="col">
-                <div class="dn-space-24"></div>
+                <div class="dn-height-24"></div>
                 {% if page.language == 'en' %}
                   <p><b>Static</b></p>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <p><b>Statik</b></p>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
                     <li><a href="/learn/wrap/?framework=css">CSS</a> or <a href="/learn/wrap/?framework=bem">BEM</a></li>
@@ -83,14 +83,14 @@ permalink: /learn/
                 {% endif %}
               </div>
               <div class="col">
-                <div class="dn-space-24"></div>
+                <div class="dn-height-24"></div>
                 {% if page.language == 'en' %}
                   <p><b>Dynamic</b></p>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <p><b>Dinamik</b></p>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
                     <li><a href="/learn/wrap/?framework=scss-plus">Scss Plus</a></li>

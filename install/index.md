@@ -14,7 +14,7 @@ permalink: /install/
     <div class="dn-browser-body__item">
       <div class="wrap xl-gutter-24 xl-top xl-center">
         <!-- <div class="col xl-3-10">
-          <div class="dn-space-8"></div>
+          <div class="dn-height-8"></div>
           <iframe width="100%" height="180" src="https://www.youtube.com/embed/Vj7NZ6FiQvo?autoplay=0&amp;showinfo=0&amp;rel=0&amp;start=9" frameborder="0" allowfullscreen="" data-reactid=".0.0.0.0"></iframe>
         </div> -->
         <div class="col xl-7-10 lg-1-1">
@@ -25,7 +25,7 @@ permalink: /install/
             {% if page.language == 'tr' %}
               <p>Kuruluma başlamadan önce <b>HTML</b>, <b>CSS</b> veya <b>Sass</b>, <b>Less</b> ya da <b>Stylus</b> bilmeniz gerekmektedir.</p>
             {% endif %}
-            <div class="dn-space-16"></div>
+            <div class="dn-height-16"></div>
             {% if page.language == 'en' %}
               <p>There are two methods of developing with Flexible Grid System. These methods are Static and Dynamic. You can use the both method at the same time or independently.</p>
             {% endif %}
@@ -34,21 +34,21 @@ permalink: /install/
             {% endif %}
             <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
               <div class="col">
-                <div class="dn-space-24"></div>
+                <div class="dn-height-24"></div>
                 {% if page.language == 'en' %}
                   <p><b>Static</b></p>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <p><b>Statik</b></p>
                 {% endif %}
-                <div class="dn-space-8"></div>
+                <div class="dn-height-8"></div>
                 {% if page.language == 'en' %}
                   <p>If you choose the Static method. You can use CSS <b>class</b>es to code your <b>HTML</b>.</p>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <p>Statik yönetimi tercih ederseniz Flexible Grid System'in CSS ile hazırlanmış sabit <b>class</b>larını kullanarak <b>HTML</b> kısmında kodlama yapabilirsiniz.</p>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
                     <li><a href="/install/css/">CSS</a> or <a href="/install/bem/">BEM</a></li>
@@ -69,21 +69,21 @@ permalink: /install/
                 {% endif %}
               </div>
               <div class="col">
-                <div class="dn-space-24"></div>
+                <div class="dn-height-24"></div>
                 {% if page.language == 'en' %}
                   <p><b>Dynamic</b></p>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <p><b>Dinamik</b></p>
                 {% endif %}
-                <div class="dn-space-8"></div>
+                <div class="dn-height-8"></div>
                 {% if page.language == 'en' %}
                   <p>If you choose the Dynamic method. You can use Sass, Less or Stylus <b>mixin</b>s to code your <b>CSS</b>.</p>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <p>Dinamik yöntemi tercih ederseniz Flexible Grid System'in Sass, Less veya Stylus ile hazırlanmış <b>mixin</b>lerini kullanarak <b>CSS</b> kısmında kodlama yapabilirsiniz.</p>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
                     <li><a href="/install/scss-plus/">Scss Plus</a></li>

@@ -14,7 +14,7 @@ permalink: /motivation/
     <div class="dn-browser-body__item">
       <div class="wrap xl-gutter-24 xl-top xl-center">
         <!-- <div class="col xl-3-10">
-          <div class="dn-space-8"></div>
+          <div class="dn-height-8"></div>
           <iframe width="100%" height="180" src="https://www.youtube.com/embed/Vj7NZ6FiQvo?autoplay=0&amp;showinfo=0&amp;rel=0&amp;start=9" frameborder="0" allowfullscreen="" data-reactid=".0.0.0.0"></iframe>
         </div> -->
         <div class="col xl-7-10 lg-1-1">
@@ -25,7 +25,7 @@ permalink: /motivation/
             {% if page.language == 'tr' %}
               <p>Projeye dört elle sarılmamızı sağlayan bazı linkler.</p>
             {% endif %}
-            <div class="dn-space-16"></div>
+            <div class="dn-height-16"></div>
             <ul>
               <li><a href="https://github.com/showcases/design-essentials">github.com</a></li>
               <li><a href="http://sass-lang.com/community">sass-lang.com</a></li>

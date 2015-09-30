@@ -14,7 +14,7 @@ permalink: /support/
     <div class="dn-browser-body__item">
       <div class="wrap xl-gutter-24 xl-top xl-center">
         <!-- <div class="col xl-3-10">
-          <div class="dn-space-8"></div>
+          <div class="dn-height-8"></div>
           <iframe width="100%" height="180" src="https://www.youtube.com/embed/Vj7NZ6FiQvo?autoplay=0&amp;showinfo=0&amp;rel=0&amp;start=9" frameborder="0" allowfullscreen="" data-reactid=".0.0.0.0"></iframe>
         </div> -->
         <div class="col xl-7-10 lg-1-1">
@@ -27,7 +27,7 @@ permalink: /support/
                 {% if page.language == 'tr' %}
                   <p><b>Tarayıcı Desteği</b></p>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
                 <ul>
                   <li>IE 9+</li>
                   <li>Chrome</li>
@@ -35,7 +35,7 @@ permalink: /support/
                   <li>Safari</li>
                   <li>Opera</li>
                 </ul>
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
               </div>
               <div class="col">
                 {% if page.language == 'en' %}
@@ -44,7 +44,7 @@ permalink: /support/
                 {% if page.language == 'tr' %}
                   <p><b>Framework Desteği</b></p>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
                     <li>Bootstrap</li>
@@ -57,7 +57,7 @@ permalink: /support/
                     <li>Foundation ve daha fazlası :)</li>
                   </ul>
                 {% endif %}
-                <div class="dn-space-16"></div>
+                <div class="dn-height-16"></div>
               </div>
             </div>
             {% if page.language == 'en' %}
@@ -66,14 +66,14 @@ permalink: /support/
             {% if page.language == 'tr' %}
               <p><b>Responsive Design</b> olarak kodlama yapıyorsak <b>Media Queries</b> kullanımından kaynaklı <b>Internet Explorer 9 ve üzeri</b> versiyonları destekliyoruz.</p>
             {% endif %}
-            <div class="dn-space-8"></div>
+            <div class="dn-height-8"></div>
             {% if page.language == 'en' %}
               <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +</b> versions.</p>
             {% endif %}
             {% if page.language == 'tr' %}
               <p><b>Flexbox</b> özelliğini kullanıyorsak <b>Internet Explorer 10 ve üzeri</b> versiyonları destekliyoruz.</p>
             {% endif %}
-            <div class="dn-space-8"></div>
+            <div class="dn-height-8"></div>
             {% if page.language == 'en' %}
               <p>Other than the two exceptions above we supprt all the major desktop and mobile browsers.</p>
             {% endif %}
