@@ -44,6 +44,3 @@ t:
       title: "Gelecek"
 
 sitemap: true
-
-sass:
-  style: compressed

@@ -30,6 +30,7 @@
     }
   }
   &--link {
+    font-family: 'Source Code Pro';
     margin-top: 0;
     margin-bottom: 0;
     color: #222;
@@ -41,11 +42,8 @@
 
 .dn-title {
   text-align: left;
-  font-family: 'Open Sans';
-  font-weight: 300;
   padding: 0 0 16px 0;
   font-size: 18px;
-  font-weight: normal;
   display: inline-block;
   color: #222;
   &:hover {
