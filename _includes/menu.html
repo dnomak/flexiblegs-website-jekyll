@@ -2,11 +2,11 @@
   <div class="dn-browser-header">
     {% include browser-button.html %}
     {% if page.language == 'en' %}
-      <a href="http://flexible.gs/tr/" class="dn-tag dn-tag--blue dn-tag--center">Türkçe</a>
+      <a href="/tr/" class="dn-tag dn-tag--blue dn-tag--center">Türkçe</a>
       <div class="dn-style--title">Menu</div>
     {% endif %}
     {% if page.language == 'tr' %}
-      <a href="http://flexible.gs/" class="dn-tag dn-tag--blue dn-tag--center">English</a>
+      <a href="/" class="dn-tag dn-tag--blue dn-tag--center">English</a>
       <div class="dn-style--title">Menü</div>
     {% endif %}
   </div>
@@ -242,7 +242,7 @@
             </ul>
           </li>
           <li>
-            <a id="menu--support" class="dn-menu__item dn-menu__item--parent" href="/support/">Support</a>
+            <a id="menu--compatibility" class="dn-menu__item dn-menu__item--parent" href="/compatibility/">Compatibility</a>
           </li>
           <li>
             <a id="menu--motivation" class="dn-menu__item dn-menu__item--parent" href="/motivation/">Motivation</a>
@@ -455,7 +455,7 @@
             </ul>
           </li>
           <li>
-            <a id="menu--support" class="dn-menu__item dn-menu__item--parent" href="/tr/support/">Destek</a>
+            <a id="menu--compatibility" class="dn-menu__item dn-menu__item--parent" href="/tr/compatibility/">Uyumluluk</a>
           </li>
           <li>
             <a id="menu--motivation" class="dn-menu__item dn-menu__item--parent" href="/tr/motivation/">Motivasyon</a>
@@ -468,4 +468,11 @@
     {% endif %}
   </div>
 </div>
-<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=flexiblegs" id="_carbonads_js"></script>
+{% if page.language == 'en' %}
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=flexiblegs" id="_carbonads_js"></script>
+{% endif %}
+{% if page.language == 'tr' %}
+  <div class="wtk15">
+    <a href="http://www.wtkizmir.com/?source=flexiblegs" target="_blank" title="WTK'15 | Web & Mobil Teknolojileri Hakkında Konuşuyoruz"><img src="/img/wtk15.png" alt="WTK'15 | Web & Mobil Teknolojileri Hakkında Konuşuyoruz"></a>
+  </div>
+{% endif %}

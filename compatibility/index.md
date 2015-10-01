@@ -1,7 +1,7 @@
 ---
 layout: default
-dynamic_title: support
-permalink: /support/
+dynamic_title: compatibility
+permalink: /compatibility/
 ---
 
 <div class="dn-browser">
@@ -22,10 +22,10 @@ permalink: /support/
             <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
               <div class="col">
                 {% if page.language == 'en' %}
-                  <p><b>Browser Support</b></p>
+                  <p><b>Browser</b></p>
                 {% endif %}
                 {% if page.language == 'tr' %}
-                  <p><b>Tarayıcı Desteği</b></p>
+                  <p><b>Tarayıcı</b></p>
                 {% endif %}
                 <div class="dn-height-16"></div>
                 <ul>
@@ -39,10 +39,10 @@ permalink: /support/
               </div>
               <div class="col">
                 {% if page.language == 'en' %}
-                  <p><b>Framework Support</b></p>
+                  <p><b>Framework</b></p>
                 {% endif %}
                 {% if page.language == 'tr' %}
-                  <p><b>Framework Desteği</b></p>
+                  <p><b>Framework</b></p>
                 {% endif %}
                 <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
@@ -78,7 +78,7 @@ permalink: /support/
               <p>Other than the two exceptions above we supprt all the major desktop and mobile browsers.</p>
             {% endif %}
             {% if page.language == 'tr' %}
-              <p>Yukarıdaki iki durum dışında tüm masaüstü ve mobil tarayıcılara destek verilmektedir.</p>
+              <p>Yukarıdaki iki durum dışında tüm masaüstü ve mobil browserlara destek verilmektedir.</p>
             {% endif %}
           </div>
         </div>

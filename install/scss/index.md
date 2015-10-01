@@ -12,9 +12,15 @@ permalink: /install/scss/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
-      <!-- Download the file and add the project as follows. -->
-      <!-- Dosyayı indirin ve aşağıdaki gibi projenize ekleyin. -->
-      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs.scss" download>Download</a>
+      <div class="dn-content">
+        {% if page.language == 'en' %}
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs.scss" download>Download the file</a> and add the project as follows.
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs.scss" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+        {% endif %}
+      </div>
+      <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
         --><div class="comment">$syntax: (</div><!--
         --><div class="comment">  <span>css, bem</span></div><!--
@@ -38,12 +44,18 @@ permalink: /install/scss/
         --><div class="comment">// http://codepen.io/dnomak/pen/LVwaKz?editors=010</div><!--
       --></pre>
       <div class="dn-height-40"></div>
-      <a class="dn-title" href="https://www.npmjs.com/package/flexiblegs-scss">npm</a>
+      <div class="dn-content">
+        <a href="https://www.npmjs.com/package/flexiblegs-scss">npm</a>
+      </div>
+      <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ npm install --save <span>flexiblegs-scss</span></div><!--
       --></pre>
       <div class="dn-height-40"></div>
-      <a class="dn-title" href="http://bower.io">bower</a>
+      <div class="dn-content">
+        <a href="http://bower.io/search/?q=flexiblegs-scss">bower</a>
+      </div>
+      <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-scss</span></div><!--
       --></pre>

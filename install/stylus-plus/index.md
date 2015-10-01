@@ -12,19 +12,31 @@ permalink: /install/stylus-plus/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
-      <!-- Download the file and add the project as follows. -->
-      <!-- Dosyayı indirin ve aşağıdaki gibi projenize ekleyin. -->
-      <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-plus.styl" download>Download</a>
+      <div class="dn-content">
+        {% if page.language == 'en' %}
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-plus.styl" download>Download the file</a> and add the project as follows.
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-plus.styl" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+        {% endif %}
+      </div>
+      <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
         --><div class="comment">@import '<span>flexiblegs-plus</span>'</div><!--
       --></pre>
       <div class="dn-height-40"></div>
-      <a class="dn-title" href="https://www.npmjs.com/package/flexiblegs-stylus-plus">npm</a>
+      <div class="dn-content">
+        <a href="https://www.npmjs.com/package/flexiblegs-stylus-plus">npm</a>
+      </div>
+      <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ npm install --save <span>flexiblegs-stylus-plus</span></div><!--
       --></pre>
       <div class="dn-height-40"></div>
-      <a class="dn-title" href="http://bower.io">bower</a>
+      <div class="dn-content">
+        <a href="http://bower.io/search/?q=flexiblegs-stylus-plus">bower</a>
+      </div>
+      <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-stylus-plus</span></div><!--
       --></pre>

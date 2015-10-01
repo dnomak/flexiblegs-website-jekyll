@@ -23,8 +23,8 @@ t:
       title: "Install"
     learn:
       title: "Learn"
-    support:
-      title: "Support"
+    compatibility:
+      title: "Compatibility"
     motivation:
       title: "Motivation"
     future:
@@ -36,14 +36,11 @@ t:
       title: "Kurulum"
     learn:
       title: "Öğrenme"
-    support:
-      title: "Destek"
+    compatibility:
+      title: "Uyumluluk"
     motivation:
       title: "Motivasyon"
     future:
       title: "Gelecek"
 
 sitemap: true
-
-sass:
-  style: compressed

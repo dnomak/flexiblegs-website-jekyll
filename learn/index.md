@@ -59,7 +59,7 @@ permalink: /learn/
               <p>For browser compatability <b>-ms</b>, <b>-moz</b> and <b>-webkit</b> aren't added to the samples.</p>
             {% endif %}
             {% if page.language == 'tr' %}
-              <p>Tarayıcı uyumluluğu için gereken <b>-ms</b>, <b>-moz</b> ve <b>-webkit</b> yazımları eklenmemiştir.</p>
+              <p>Browser uyumluluğu için gereken <b>-ms</b>, <b>-moz</b> ve <b>-webkit</b> yazımları eklenmemiştir.</p>
             {% endif %}
             <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
               <div class="col">

@@ -5,6 +5,7 @@
   text-align: left;
   line-height: 36px;
   font-weight: 300;
+  font-size: 18px;
   p {
     font-size: 18px;
   }
@@ -25,6 +26,13 @@
       font-size: 17px;
     }
   }
+  a {
+    color: #2B97DE;
+    font-weight: normal;
+    &:hover {
+      color: #222;
+    }
+  }
   ul {
     display: block;
     font-size: 18px;
@@ -35,12 +43,6 @@
     .line-through {
       text-decoration: line-through;
       cursor: not-allowed;
-    }
-    a {
-      color: #2B97DE;
-      &:hover {
-        color: #222;
-      }
     }
   }
   ul ul {
