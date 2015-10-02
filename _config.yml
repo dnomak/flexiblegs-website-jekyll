@@ -29,6 +29,8 @@ t:
       title: "Motivation"
     future:
       title: "Future"
+    say-something:
+      title: "Say Something"
   tr:
     homepage:
       title: "Anasayfa"
@@ -42,5 +44,7 @@ t:
       title: "Motivasyon"
     future:
       title: "Gelecek"
+    say-something:
+      title: "Bir Şeyler Söyle"
 
 sitemap: true
