@@ -17,11 +17,12 @@
     display: inline-block;
     color: #a1a1a1;
     b {
-      color: #EB4A2C;
+      color: #EC1561;
+      font-weight: bold;
     }
   }
   &--wrap {
-    background: #FED5D6;
+    background: #FBD0DF;
     min-height: 48px;
     position: relative;
   }
@@ -29,7 +30,7 @@
     font-family: 'Source Code Pro';
     display: block;
     color: rgba(255, 255, 255, 1);
-    background: #3A99D8;
+    background: #1094F6;
     line-height: 48px;
     min-height: 48px;
     padding: 0 24px;
