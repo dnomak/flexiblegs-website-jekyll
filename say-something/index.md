@@ -27,6 +27,13 @@ permalink: /say-something/
         </div> -->
         <div class="col xl-7-10 lg-1-1">
           <div class="dn-content">
+            {% if page.language == 'en' %}
+              <div class="dn-text-center">My english is really bad. I'm sorry for it :(</div>
+              <div class="dn-height-24"></div>
+            {% endif %}
+            {% if page.language == 'tr' %}
+
+            {% endif %}
             <div class="dn-disqus">
               <div id="disqus_thread"></div>
             </div>
