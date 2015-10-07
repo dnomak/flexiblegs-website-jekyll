@@ -7,8 +7,8 @@
 {% endif %}
   {% include head.html %}
   <body>
-    <section class="wrap xl-gutter-24 xl-outside-24 lg-1">
-      <article class="col xl-9-12">
+    <section class="wrap xl-gutter-24 xl-outside-24 xl-table xl-top lg-normal lg-1">
+      <article class="col">
         {{ content }}
         <div class="wrap xl-flexbox xl-between xl-auto lg-1 lg-center">
           <div class="col lg-hidden">
@@ -55,8 +55,10 @@
         <div class="dn-height-24 lg-hidden"></div>
         <div class="dn-height-24 lg-hidden"></div>
       </article>
-      <aside class="col xl-3-12 dn-style--aside">
-        {% include menu.html %}
+      <aside class="col xl-width-360">
+        <div class="dn-style--aside">
+          {% include menu.html %}
+        </div>
       </aside>
     </section>
   </body>

@@ -62,7 +62,8 @@
       padding: 40px 40px 0 40px;
     }
     &--menu {
-      overflow: scroll;
+      overflow-y: scroll;
+      overflow-x: hidden;
       max-height: calc(100vh - 360px);
     }
   }
