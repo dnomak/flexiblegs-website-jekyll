@@ -1,12 +1,22 @@
-@media (max-width: 1280px) {
-  #carbonads {
-    a.carbon-poweredby {
-      text-align: left;
-      padding-left: 146px;
-    }
-  }
+.dn-xl-left {
+  text-align: left;
+}
+.dn-xl-center {
+  text-align: center;
+}
+.dn-xl-right {
+  text-align: right;
 }
 @media (max-width: 1024px) {
+  .dn-lg-left {
+    text-align: left;
+  }
+  .dn-lg-center {
+    text-align: center;
+  }
+  .dn-lg-right {
+    text-align: right;
+  }
   .dn-browser-body--menu {
     max-height: 5000px;
   }
