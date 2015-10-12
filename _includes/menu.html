@@ -2,11 +2,11 @@
   <div class="dn-browser-header">
     {% include browser-button.html %}
     {% if page.language == 'en' %}
-      <a href="/tr/" class="dn-tag dn-tag--blue dn-tag--center">Türkçe</a>
+      <a href="/tr/#homepage" class="dn-tag dn-tag--blue dn-tag--center">Türkçe</a>
       <div class="dn-style--title">Menu</div>
     {% endif %}
     {% if page.language == 'tr' %}
-      <a href="/" class="dn-tag dn-tag--blue dn-tag--center">English</a>
+      <a href="/#homepage" class="dn-tag dn-tag--blue dn-tag--center">English</a>
       <div class="dn-style--title">Menü</div>
     {% endif %}
   </div>
@@ -40,14 +40,15 @@
         {% endif %}
       </div>
     </div>
+
     {% if page.language == 'en' %}
       <nav>
         <ul>
           <li>
-            <a id="menu--homepage" class="dn-menu__item dn-menu__item--parent" href="/">Homepage</a>
+            <a id="homepage" class="dn-menu__item dn-menu__item--parent" href="/#homepage">Homepage</a>
           </li>
           <li>
-            <a class="dn-menu__item dn-menu--install dn-menu__item--parent" href="/install/">Install</a>
+            <a id="install" class="dn-menu__item dn-menu--install dn-menu__item--parent" href="/install/#install">Install</a>
             <ul class="dn-menu--install-child hidden">
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__css" href="/install/css/">css</a></li>
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__bem" href="/install/bem/">bem</a></li>
@@ -59,7 +60,7 @@
             </ul>
           </li>
           <li>
-            <a class="dn-menu__item dn-menu--learn dn-menu__item--parent" href="/learn/">Learn</a>
+            <a id="learn" class="dn-menu__item dn-menu--learn dn-menu__item--parent" href="/learn/#learn">Learn</a>
             <ul id="css--menu">
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/learn/wrap/?framework=css">wrap (css)</a></li>
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/learn/col/?framework=css">col (css)</a></li>
@@ -242,28 +243,29 @@
             </ul>
           </li>
           <li>
-            <a id="menu--compatibility" class="dn-menu__item dn-menu__item--parent" href="/compatibility/">Compatibility</a>
+            <a id="compatibility" class="dn-menu__item dn-menu__item--parent" href="/compatibility/#compatibility">Compatibility</a>
           </li>
           <li>
-            <a id="menu--motivation" class="dn-menu__item dn-menu__item--parent" href="/motivation/">Motivation</a>
+            <a id="motivation" class="dn-menu__item dn-menu__item--parent" href="/motivation/#motivation">Motivation</a>
           </li>
           <li>
-            <a id="menu--future" class="dn-menu__item dn-menu__item--parent" href="/future/">Future</a>
+            <a id="future" class="dn-menu__item dn-menu__item--parent" href="/future/#future">Future</a>
           </li>
           <li>
-            <a id="menu--say-something" class="dn-menu__item dn-menu__item--parent end" href="/say-something/">Say Something</a>
+            <a id="say-something" class="dn-menu__item dn-menu__item--parent end" href="/say-something/#say-something">Say Something</a>
           </li>
         </ul>
       </nav>
     {% endif %}
+
     {% if page.language == 'tr' %}
       <nav>
         <ul>
           <li>
-            <a id="menu--homepage" class="dn-menu__item dn-menu__item--parent" href="/tr/">Anasayfa</a>
+            <a id="homepage" class="dn-menu__item dn-menu__item--parent" href="/tr/#homepage">Anasayfa</a>
           </li>
           <li>
-            <a class="dn-menu__item dn-menu--install dn-menu__item--parent" href="/tr/install/">Kurulum</a>
+            <a id="install" class="dn-menu__item dn-menu--install dn-menu__item--parent" href="/tr/install/#install">Kurulum</a>
             <ul class="dn-menu--install-child hidden">
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__css" href="/tr/install/css/">css</a></li>
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__bem" href="/tr/install/bem/">bem</a></li>
@@ -275,7 +277,7 @@
             </ul>
           </li>
           <li>
-            <a class="dn-menu__item dn-menu--learn dn-menu__item--parent" href="/tr/learn/">Öğrenme</a>
+            <a id="learn" class="dn-menu__item dn-menu--learn dn-menu__item--parent" href="/tr/learn/#learn">Öğrenme</a>
             <ul id="css--menu">
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=css">wrap (css)</a></li>
               <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=css">col (css)</a></li>
@@ -458,20 +460,21 @@
             </ul>
           </li>
           <li>
-            <a id="menu--compatibility" class="dn-menu__item dn-menu__item--parent" href="/tr/compatibility/">Uyumluluk</a>
+            <a id="compatibility" class="dn-menu__item dn-menu__item--parent" href="/tr/compatibility/#compatibility">Uyumluluk</a>
           </li>
           <li>
-            <a id="menu--motivation" class="dn-menu__item dn-menu__item--parent" href="/tr/motivation/">Motivasyon</a>
+            <a id="motivation" class="dn-menu__item dn-menu__item--parent" href="/tr/motivation/#motivation">Motivasyon</a>
           </li>
           <li>
-            <a id="menu--future" class="dn-menu__item dn-menu__item--parent" href="/tr/future/">Gelecek</a>
+            <a id="future" class="dn-menu__item dn-menu__item--parent" href="/tr/future/#future">Gelecek</a>
           </li>
           <li>
-            <a id="menu--say-something" class="dn-menu__item dn-menu__item--parent end" href="/tr/say-something/">Bir Şeyler Söyle</a>
+            <a id="say-something" class="dn-menu__item dn-menu__item--parent end" href="/tr/say-something/#say-something">Bir Şeyler Söyle</a>
           </li>
         </ul>
       </nav>
     {% endif %}
+
   </div>
 </div>
 

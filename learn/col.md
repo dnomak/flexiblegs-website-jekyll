@@ -69,7 +69,7 @@ permalink: /learn/col/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+        <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
@@ -105,7 +105,7 @@ permalink: /learn/col/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+        <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
@@ -139,7 +139,7 @@ permalink: /learn/col/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+        <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
@@ -175,7 +175,7 @@ permalink: /learn/col/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+        <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
           {% include learn/col/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--

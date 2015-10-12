@@ -19,7 +19,7 @@ permalink: /compatibility/
         </div> -->
         <div class="col xl-7-10 lg-1-1">
           <div class="dn-content">
-            <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
+            <div class="wrap xl-gutter-24 xl-top xl-2 md-1">
               <div class="col">
                 {% if page.language == 'en' %}
                   <p><b>Browser</b></p>

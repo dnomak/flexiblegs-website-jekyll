@@ -32,7 +32,7 @@ permalink: /install/
             {% if page.language == 'tr' %}
               <p>Flexible Grid System ile kod yazmanın iki yöntemi bulunmaktadır. Bunlar Statik ve Dinamik olmak üzere ikiye ayrılır. İki yöntemi aynı anda ya da ayrı ayrı kullanmanız mümkündür.</p>
             {% endif %}
-            <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
+            <div class="wrap xl-gutter-24 xl-top xl-2 md-1">
               <div class="col">
                 <div class="dn-height-24"></div>
                 {% if page.language == 'en' %}

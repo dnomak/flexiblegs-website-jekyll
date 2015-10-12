@@ -61,7 +61,7 @@ permalink: /learn/
             {% if page.language == 'tr' %}
               <p>Browser uyumluluğu için gereken <b>-ms</b>, <b>-moz</b> ve <b>-webkit</b> yazımları eklenmemiştir.</p>
             {% endif %}
-            <div class="wrap xl-gutter-24 xl-top xl-2 lg-1">
+            <div class="wrap xl-gutter-24 xl-top xl-2 md-1">
               <div class="col">
                 <div class="dn-height-24"></div>
                 {% if page.language == 'en' %}
