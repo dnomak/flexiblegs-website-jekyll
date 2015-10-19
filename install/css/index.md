@@ -14,16 +14,16 @@ permalink: /install/css/
     <div class="dn-browser-body__pre">
       <div class="dn-content">
         {% if page.language == 'en' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs.css" download>Download the file</a> and add the project as follows.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs-css.css" download>Download the file</a> and add the project as follows.
         {% endif %}
         {% if page.language == 'tr' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs.css" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs-css.css" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
         {% endif %}
       </div>
       <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
         --><div class="comment">&lt;head&gt;<br/><!--
-        -->  &lt;link rel="stylesheet" href="<span>flexiblegs.css</span>"&gt;<br/><!--
+        -->  &lt;link rel="stylesheet" href="<span>flexiblegs-css.css</span>"&gt;<br/><!--
         -->&lt;/head&gt;</div><!--
       --></pre>
       <div class="dn-height-40"></div>

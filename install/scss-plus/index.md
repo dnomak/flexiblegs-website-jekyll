@@ -14,15 +14,15 @@ permalink: /install/scss-plus/
     <div class="dn-browser-body__pre">
       <div class="dn-content">
         {% if page.language == 'en' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss-plus/master/flexiblegs-plus.scss" download>Download the file</a> and add the project as follows.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss-plus/master/flexiblegs-scss-plus.scss" download>Download the file</a> and add the project as follows.
         {% endif %}
         {% if page.language == 'tr' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss-plus/master/flexiblegs-plus.scss" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss-plus/master/flexiblegs-scss-plus.scss" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
         {% endif %}
       </div>
       <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
-        --><div class="comment">@import "<span>flexiblegs-plus</span>";</div><!--
+        --><div class="comment">@import "<span>flexiblegs-scss-plus</span>";</div><!--
       --></pre>
       <div class="dn-height-40"></div>
       <div class="dn-content">

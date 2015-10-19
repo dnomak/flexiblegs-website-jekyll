@@ -14,15 +14,15 @@ permalink: /install/sass-plus/
     <div class="dn-browser-body__pre">
       <div class="dn-content">
         {% if page.language == 'en' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-plus.sass" download>Download the file</a> and add the project as follows.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-sass-plus.sass" download>Download the file</a> and add the project as follows.
         {% endif %}
         {% if page.language == 'tr' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-plus.sass" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-sass-plus.sass" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
         {% endif %}
       </div>
       <div class="dn-height-16"></div>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
-        --><div class="comment">@import "<span>flexiblegs-plus</span>"</div><!--
+        --><div class="comment">@import "<span>flexiblegs-sass-plus</span>"</div><!--
       --></pre>
       <div class="dn-height-40"></div>
       <div class="dn-content">

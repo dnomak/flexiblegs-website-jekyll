@@ -14,10 +14,10 @@ permalink: /install/scss/
     <div class="dn-browser-body__pre">
       <div class="dn-content">
         {% if page.language == 'en' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs.scss" download>Download the file</a> and add the project as follows.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs-scss.scss" download>Download the file</a> and add the project as follows.
         {% endif %}
         {% if page.language == 'tr' %}
-          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs.scss" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+          <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-scss/master/flexiblegs-scss.scss" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
         {% endif %}
       </div>
       <div class="dn-height-16"></div>
@@ -39,8 +39,8 @@ permalink: /install/scss/
         --><div class="comment">$wrap-gutter:  (<span>0, 8, 16, 24, 40</span>);</div><!--
         --><div class="comment">$wrap-outside: (<span>0, 8, 16, 24, 40</span>);</div><!--
         --><div class="comment">$wrap-masonry: (<span>2, 3, 4, 5, 6</span>);</div><br/><!--
-        --><div class="comment">@import "flexiblegs-plus";</div><!--
-        --><div class="comment">@import "<span>flexiblegs</span>";<br/><br/></div><!--
+        --><div class="comment">@import "flexiblegs-scss-plus";</div><!--
+        --><div class="comment">@import "<span>flexiblegs-scss</span>";<br/><br/></div><!--
         --><div class="comment">// http://codepen.io/dnomak/pen/LVwaKz?editors=010</div><!--
       --></pre>
       <div class="dn-height-40"></div>
