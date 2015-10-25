@@ -73,12 +73,12 @@ permalink: /learn/
                 <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
-                    <li><a href="/learn/wrap/?framework=css">CSS</a> or <a href="/learn/wrap/?framework=bem">BEM</a></li>
+                    <li><a href="/learn/wrap/?framework=css#wrap-css">CSS</a> or <a href="/learn/wrap/?framework=bem#wrap-bem">BEM</a></li>
                   </ul>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <ul>
-                    <li><a href="/tr/learn/wrap/?framework=css">CSS</a> veya <a href="/tr/learn/wrap/?framework=bem">BEM</a></li>
+                    <li><a href="/tr/learn/wrap/?framework=css#wrap-css">CSS</a> veya <a href="/tr/learn/wrap/?framework=bem#wrap-bem">BEM</a></li>
                   </ul>
                 {% endif %}
               </div>
@@ -93,18 +93,18 @@ permalink: /learn/
                 <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
-                    <li><a href="/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
-                    <li><a href="/learn/wrap/?framework=sass-plus">Sass Plus</a></li>
-                    <li><a href="/learn/wrap/?framework=less-plus">Less Plus</a></li>
-                    <li><a href="/learn/wrap/?framework=stylus-plus">Stylus Plus</a></li>
+                    <li><a href="/learn/wrap/?framework=scss-plus#wrap-scss-plus">Scss Plus</a></li>
+                    <li><a href="/learn/wrap/?framework=sass-plus#wrap-sass-plus">Sass Plus</a></li>
+                    <li><a href="/learn/wrap/?framework=less-plus#wrap-less-plus">Less Plus</a></li>
+                    <li><a href="/learn/wrap/?framework=stylus-plus#wrap-stylus-plus">Stylus Plus</a></li>
                   </ul>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <ul>
-                    <li><a href="/tr/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
-                    <li><a href="/tr/learn/wrap/?framework=sass-plus">Sass Plus</a></li>
-                    <li><a href="/tr/learn/wrap/?framework=less-plus">Less Plus</a></li>
-                    <li><a href="/tr/learn/wrap/?framework=stylus-plus">Stylus Plus</a></li>
+                    <li><a href="/tr/learn/wrap/?framework=scss-plus#wrap-scss-plus">Scss Plus</a></li>
+                    <li><a href="/tr/learn/wrap/?framework=sass-plus#wrap-sass-plus">Sass Plus</a></li>
+                    <li><a href="/tr/learn/wrap/?framework=less-plus#wrap-less-plus">Less Plus</a></li>
+                    <li><a href="/tr/learn/wrap/?framework=stylus-plus#wrap-stylus-plus">Stylus Plus</a></li>
                   </ul>
                 {% endif %}
               </div>
