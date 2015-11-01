@@ -21,9 +21,7 @@ permalink: /future/
           <div class="dn-content">
             {% if page.language == 'en' %}
               <ul>
-                <li>Flexible Video Tutorial</li>
-                <li>Flexible Book</li>
-                <li>Flexible Front End Framework</li>
+                <li><a href="https://github.com/flexiblegs/flexiblecss-scss">Flexible Front End Framework</a></li>
                 <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
                 <li>Flexible Front End Editor</li>
                 <li>Flexible Cloud (Content Management System)</li>
@@ -44,9 +42,7 @@ permalink: /future/
             {% endif %}
             {% if page.language == 'tr' %}
               <ul>
-                <li>Flexible Video Tutorial</li>
-                <li>Flexible Book</li>
-                <li>Flexible Front End Framework</li>
+                <li><a href="https://github.com/flexiblegs/flexiblecss-scss">Flexible Front End Framework</a></li>
                 <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
                 <li>Flexible Front End Editor</li>
                 <li>Flexible Cloud (İçerik Yönetim Sistemi)</li>
