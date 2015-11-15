@@ -13,7 +13,10 @@
   &--icon {
     background: #fff;
     padding: 12px 0;
-    border-bottom: 1px solid #E8E8E8;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #E8E8E8;
     .fa-github-alt, .fa-codepen {
       color: #222;
     }
