@@ -64,7 +64,10 @@
     &--menu {
       overflow-y: scroll;
       overflow-x: hidden;
-      max-height: calc(100vh - 360px);
+      // carbon
+      // max-height: calc(100vh - 360px);
+      // adsense
+      max-height: calc(100vh - 494px);
     }
   }
   &-footer {
