@@ -12,8 +12,8 @@ permalink: /learn/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
-      <div class="wrap xl-table xl-gutter-40 xl-top xl-center lg-normal">
-        <div class="col xl-width-360 lg-1-1">
+      <div class="wrap xl-table xl-gutter-40 xl-top xl-center md-normal">
+        <div class="col xl-width-360 md-1-1">
           {% include social-media.html %}
         </div>
         <div class="col xl-1-1">
