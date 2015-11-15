@@ -12,11 +12,11 @@ permalink: /compatibility/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
-      <div class="wrap xl-gutter-40 xl-top xl-center">
-        <div class="col xl-3-10 lg-1-1">
-          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=flexiblegs" id="_carbonads_js"></script>
+      <div class="wrap xl-table xl-gutter-40 xl-top xl-center lg-normal">
+        <div class="col xl-width-360 lg-1-1">
+          {% include social-media.html %}
         </div>
-        <div class="col xl-7-10 lg-1-1">
+        <div class="col xl-1-1">
           <div class="dn-content">
             <div class="wrap xl-gutter-24 xl-top xl-2 md-1">
               <div class="col">

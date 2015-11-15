@@ -12,11 +12,11 @@ permalink: /future/
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
-      <div class="wrap xl-gutter-40 xl-top xl-center">
-        <div class="col xl-3-10 lg-1-1">
-          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=flexiblegs" id="_carbonads_js"></script>
+      <div class="wrap xl-table xl-gutter-40 xl-top xl-center lg-normal">
+        <div class="col xl-width-360 lg-1-1">
+          {% include social-media.html %}
         </div>
-        <div class="col xl-7-10 lg-1-1">
+        <div class="col xl-1-1">
           <div class="dn-content">
             {% if page.language == 'en' %}
               <ul>
@@ -67,13 +67,6 @@ permalink: /future/
             {% if page.language == 'tr' %}
               <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal aracılığıyla bağış yapabilirsiniz.</p>
             {% endif %}
-            <div class="dn-height-16"></div>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: left;">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="NHEUHUB8863NS">
-              <input type="image" src="/img/paypal-logo.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1" alt="PayPal">
-            </form>
           </div>
         </div>
       </div>
