@@ -64,11 +64,11 @@ permalink: /learn/baseline/
   </div>
 </div>
 
-<div id="scss-plus">
+<div id="scss">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/baseline/title.html %} (scss-plus)</div>
+      <div class="dn-style--title">{% include learn/baseline/title.html %} (scss)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -79,8 +79,8 @@ permalink: /learn/baseline/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
-              -->  @include wrap(flexbox);<br/><!--
-              -->  @include <span>wrap(baseline)</span>;<br/><!--
+              -->  @include wrap("flexbox");<br/><!--
+              -->  @include <span>wrap("baseline")</span>;<br/><!--
               -->  @include wrap(3);<br/><!--
               -->  &__item {<br/><!--
               -->    @include col;<br/><!--
@@ -95,7 +95,7 @@ permalink: /learn/baseline/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-scss-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-scss-plus</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-scss" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-scss</a>
           </div>
         </div>
       </div>
@@ -103,11 +103,11 @@ permalink: /learn/baseline/
   </div>
 </div>
 
-<div id="sass-plus">
+<div id="sass">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/baseline/title.html %} (sass-plus)</div>
+      <div class="dn-style--title">{% include learn/baseline/title.html %} (sass)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -118,8 +118,8 @@ permalink: /learn/baseline/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
-              -->  +wrap(flexbox)<br/><!--
-              -->  +<span>wrap(baseline)</span><br/><!--
+              -->  +wrap("flexbox")<br/><!--
+              -->  +<span>wrap("baseline")</span><br/><!--
               -->  +wrap(3)<br/><!--
               -->  &__item<br/><!--
               -->    +col<!--
@@ -132,7 +132,7 @@ permalink: /learn/baseline/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-sass-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-sass-plus</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-sass" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-sass</a>
           </div>
         </div>
       </div>
@@ -140,11 +140,11 @@ permalink: /learn/baseline/
   </div>
 </div>
 
-<div id="less-plus">
+<div id="less">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/baseline/title.html %} (less-plus)</div>
+      <div class="dn-style--title">{% include learn/baseline/title.html %} (less)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -155,8 +155,8 @@ permalink: /learn/baseline/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
-              -->  .wrap(flexbox);<br/><!--
-              -->  .<span>wrap(baseline)</span>;<br/><!--
+              -->  .wrap("flexbox");<br/><!--
+              -->  .<span>wrap("baseline")</span>;<br/><!--
               -->  .wrap(3);<br/><!--
               -->  &__item {<br/><!--
               -->    .col;<br/><!--
@@ -171,7 +171,7 @@ permalink: /learn/baseline/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-less-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-less-plus</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-less" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-less</a>
           </div>
         </div>
       </div>
@@ -179,11 +179,11 @@ permalink: /learn/baseline/
   </div>
 </div>
 
-<div id="stylus-plus">
+<div id="stylus">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/baseline/title.html %} (stylus-plus)</div>
+      <div class="dn-style--title">{% include learn/baseline/title.html %} (stylus)</div>
       {% include logo.html %}
     </div>
     <div class="dn-browser-body">
@@ -194,8 +194,8 @@ permalink: /learn/baseline/
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
-              -->  wrap(flexbox)<br/><!--
-              -->  <span>wrap(baseline)</span><br/><!--
+              -->  wrap("flexbox")<br/><!--
+              -->  <span>wrap("baseline")</span><br/><!--
               -->  wrap(3)<br/><!--
               -->  &__item<br/><!--
               -->    col()<!--
@@ -208,7 +208,7 @@ permalink: /learn/baseline/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="https://github.com/flexiblegs/flexiblegs-stylus-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-stylus-plus</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-stylus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-stylus</a>
           </div>
         </div>
       </div>

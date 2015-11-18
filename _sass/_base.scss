@@ -40,6 +40,7 @@ pre {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+  text-align: left;
   .comment {
     color: #a1a1a1;
     span {
@@ -100,18 +101,18 @@ pre {
 }
 #css,
 #bem,
-#scss-plus,
-#sass-plus,
-#less-plus,
-#stylus-plus {
+#scss,
+#sass,
+#less,
+#stylus {
   display: none;
 }
 #learn--menu,
 #css--menu,
 #bem--menu,
-#scss-plus--menu,
-#sass-plus--menu,
-#less-plus--menu,
-#stylus-plus--menu {
+#scss--menu,
+#sass--menu,
+#less--menu,
+#stylus--menu {
   display: none;
 }

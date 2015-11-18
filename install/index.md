@@ -60,7 +60,7 @@ permalink: /install/
                 {% if page.language == 'tr' %}
                   <ul>
                     <li><a href="/tr/install/css/">CSS</a> veya <a href="/tr/install/bem/">BEM</a></li>
-                    <li><a href="/tr/install/scss/">Scss</a></li>
+                    <li><a href="/tr/install/scss-plus/">Scss Plus</a></li>
                     <li><span class="line-through">Sass</span></li>
                     <li><span class="line-through">Less</span></li>
                     <li><span class="line-through">Stylus</span></li>
@@ -85,18 +85,18 @@ permalink: /install/
                 <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
-                    <li><a href="/install/scss-plus/">Scss Plus</a></li>
-                    <li><a href="/install/sass-plus/">Sass Plus</a></li>
-                    <li><a href="/install/less-plus/">Less Plus</a></li>
-                    <li><a href="/install/stylus-plus/">Stylus Plus</a></li>
+                    <li><a href="/install/scss/">Scss</a></li>
+                    <li><a href="/install/sass/">Sass</a></li>
+                    <li><a href="/install/less/">Less</a></li>
+                    <li><a href="/install/stylus/">Stylus</a></li>
                   </ul>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <ul>
-                    <li><a href="/tr/install/scss-plus/">Scss Plus</a></li>
-                    <li><a href="/tr/install/sass-plus/">Sass Plus</a></li>
-                    <li><a href="/tr/install/less-plus/">Less Plus</a></li>
-                    <li><a href="/tr/install/stylus-plus/">Stylus Plus</a></li>
+                    <li><a href="/tr/install/scss/">Scss</a></li>
+                    <li><a href="/tr/install/sass/">Sass</a></li>
+                    <li><a href="/tr/install/less/">Less</a></li>
+                    <li><a href="/tr/install/stylus/">Stylus</a></li>
                   </ul>
                 {% endif %}
               </div>
