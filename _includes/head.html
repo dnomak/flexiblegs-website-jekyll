@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="alternate" hreflang="en" href="http://flexible.gs/" />
   <link rel="alternate" hreflang="tr" href="http://flexible.gs/tr/" />
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -35,8 +35,6 @@
     ga('create', 'UA-25094721-4', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
   <title>{% if page.dynamic_title %}{{ site.t.[page.language].[page.dynamic_title].title }} - Flexible Grid System{% else %}{{ page.title }} ({{ page.language }}) - Flexible Grid System {% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 </head>
