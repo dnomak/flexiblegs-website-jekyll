@@ -1,20 +1,19 @@
 ---
-layout: default
+layout: flexiblegs
 title: sass
 permalink: /install/sass/
 ---
 
 <div class="dn-browser">
   <div class="dn-browser-header">
-    {% include browser-button.html %}
     <div class="dn-style--title"><span>sass</span></div>
-    {% include logo.html %}
+    {% include flexiblegs/logo.html %}
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
       <div class="wrap xl-table xl-gutter-40 xl-top xl-center md-normal">
         <div class="col xl-width-360 md-1-1">
-          {% include social-media.html %}
+          {% include flexiblegs/social-media.html %}
         </div>
         <div class="col xl-1-1">
           <div class="dn-content">

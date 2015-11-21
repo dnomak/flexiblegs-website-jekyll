@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: flexiblegs
 title: wrap(table)
 permalink: /learn/table/
 ---
@@ -7,9 +7,8 @@ permalink: /learn/table/
 <div id="css">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/table/title.html %} (css)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/table/title.html %} (css)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -20,9 +19,9 @@ permalink: /learn/table/
           -->  &lt;div class="col" style="width: 212px;"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include learn/table/compiled.html %}
+        {% include flexiblegs/learn/table/compiled.html %}
       </div>
-      {% include learn/table/preview.html %}
+      {% include flexiblegs/learn/table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -37,9 +36,8 @@ permalink: /learn/table/
 <div id="bem">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/table/title.html %} (bem)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/table/title.html %} (bem)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -50,9 +48,9 @@ permalink: /learn/table/
           -->  &lt;div class="wrap__col" style="width: 212px;"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include learn/table/compiled.html %}
+        {% include flexiblegs/learn/table/compiled.html %}
       </div>
-      {% include learn/table/preview.html %}
+      {% include flexiblegs/learn/table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -67,14 +65,13 @@ permalink: /learn/table/
 <div id="scss">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/table/title.html %} (scss)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/table/title.html %} (scss)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/table/dynamic.html %}
+          {% include flexiblegs/learn/table/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
@@ -92,11 +89,11 @@ permalink: /learn/table/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include learn/table/compiled.html %}
+            {% include flexiblegs/learn/table/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/table/preview.html %}
+      {% include flexiblegs/learn/table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -111,14 +108,13 @@ permalink: /learn/table/
 <div id="sass">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/table/title.html %} (sass)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/table/title.html %} (sass)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/table/dynamic.html %}
+          {% include flexiblegs/learn/table/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
@@ -132,11 +128,11 @@ permalink: /learn/table/
               -->    &.three<br/><!--
               -->      width: 212px<!--
             --></pre>
-            {% include learn/table/compiled.html %}
+            {% include flexiblegs/learn/table/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/table/preview.html %}
+      {% include flexiblegs/learn/table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -151,14 +147,13 @@ permalink: /learn/table/
 <div id="less">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/table/title.html %} (less)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/table/title.html %} (less)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/table/dynamic.html %}
+          {% include flexiblegs/learn/table/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
@@ -176,11 +171,11 @@ permalink: /learn/table/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include learn/table/compiled.html %}
+            {% include flexiblegs/learn/table/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/table/preview.html %}
+      {% include flexiblegs/learn/table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -195,14 +190,13 @@ permalink: /learn/table/
 <div id="stylus">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/table/title.html %} (stylus)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/table/title.html %} (stylus)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/table/dynamic.html %}
+          {% include flexiblegs/learn/table/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
@@ -216,11 +210,11 @@ permalink: /learn/table/
               -->    &.three<br/><!--
               -->      width: 212px<!--
             --></pre>
-            {% include learn/table/compiled.html %}
+            {% include flexiblegs/learn/table/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/table/preview.html %}
+      {% include flexiblegs/learn/table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">

@@ -1,20 +1,19 @@
 ---
-layout: default
+layout: flexiblegs
 dynamic_title: learn
 permalink: /learn/
 ---
 
 <div class="dn-browser">
   <div class="dn-browser-header">
-    {% include browser-button.html %}
     <div class="dn-style--title">{{ site.t.[page.language].[page.dynamic_title].title }}</div>
-    {% include logo.html %}
+    {% include flexiblegs/logo.html %}
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
       <div class="wrap xl-table xl-gutter-40 xl-top xl-center md-normal">
         <div class="col xl-width-360 md-1-1">
-          {% include social-media.html %}
+          {% include flexiblegs/social-media.html %}
         </div>
         <div class="col xl-1-1">
           <div class="dn-content">
@@ -72,12 +71,12 @@ permalink: /learn/
                 <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
-                    <li><a href="/learn/wrap/?framework=css#wrap-css">CSS</a> or <a href="/learn/wrap/?framework=bem#wrap-bem">BEM</a></li>
+                    <li><a href="/learn/wrap/?preprocessor=css#wrap-css">CSS</a> or <a href="/learn/wrap/?preprocessor=bem#wrap-bem">BEM</a></li>
                   </ul>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <ul>
-                    <li><a href="/tr/learn/wrap/?framework=css#wrap-css">CSS</a> veya <a href="/tr/learn/wrap/?framework=bem#wrap-bem">BEM</a></li>
+                    <li><a href="/tr/learn/wrap/?preprocessor=css#wrap-css">CSS</a> veya <a href="/tr/learn/wrap/?preprocessor=bem#wrap-bem">BEM</a></li>
                   </ul>
                 {% endif %}
               </div>
@@ -92,18 +91,18 @@ permalink: /learn/
                 <div class="dn-height-16"></div>
                 {% if page.language == 'en' %}
                   <ul>
-                    <li><a href="/learn/wrap/?framework=scss#wrap-scss">Scss</a></li>
-                    <li><a href="/learn/wrap/?framework=sass#wrap-sass">Sass</a></li>
-                    <li><a href="/learn/wrap/?framework=less#wrap-less">Less</a></li>
-                    <li><a href="/learn/wrap/?framework=stylus#wrap-stylus">Stylus</a></li>
+                    <li><a href="/learn/wrap/?preprocessor=scss#wrap-scss">Scss</a></li>
+                    <li><a href="/learn/wrap/?preprocessor=sass#wrap-sass">Sass</a></li>
+                    <li><a href="/learn/wrap/?preprocessor=less#wrap-less">Less</a></li>
+                    <li><a href="/learn/wrap/?preprocessor=stylus#wrap-stylus">Stylus</a></li>
                   </ul>
                 {% endif %}
                 {% if page.language == 'tr' %}
                   <ul>
-                    <li><a href="/tr/learn/wrap/?framework=scss#wrap-scss">Scss</a></li>
-                    <li><a href="/tr/learn/wrap/?framework=sass#wrap-sass">Sass</a></li>
-                    <li><a href="/tr/learn/wrap/?framework=less#wrap-less">Less</a></li>
-                    <li><a href="/tr/learn/wrap/?framework=stylus#wrap-stylus">Stylus</a></li>
+                    <li><a href="/tr/learn/wrap/?preprocessor=scss#wrap-scss">Scss</a></li>
+                    <li><a href="/tr/learn/wrap/?preprocessor=sass#wrap-sass">Sass</a></li>
+                    <li><a href="/tr/learn/wrap/?preprocessor=less#wrap-less">Less</a></li>
+                    <li><a href="/tr/learn/wrap/?preprocessor=stylus#wrap-stylus">Stylus</a></li>
                   </ul>
                 {% endif %}
               </div>

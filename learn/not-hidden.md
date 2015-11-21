@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: flexiblegs
 title: col(not-hidden)
 permalink: /learn/not-hidden/
 ---
@@ -7,9 +7,8 @@ permalink: /learn/not-hidden/
 <div id="css">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/not-hidden/title.html %} (css)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/not-hidden/title.html %} (css)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -20,9 +19,9 @@ permalink: /learn/not-hidden/
           -->  &lt;div class="col xl-1-3 <span>xl-not-hidden</span>"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include learn/not-hidden/compiled.html %}
+        {% include flexiblegs/learn/not-hidden/compiled.html %}
       </div>
-      {% include learn/not-hidden/preview.html %}
+      {% include flexiblegs/learn/not-hidden/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -37,9 +36,8 @@ permalink: /learn/not-hidden/
 <div id="bem">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/not-hidden/title.html %} (bem)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/not-hidden/title.html %} (bem)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -50,9 +48,9 @@ permalink: /learn/not-hidden/
           -->  &lt;div class="wrap__col wrap__col--xl-1-3 <span>wrap__col--xl-not-hidden</span>"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include learn/not-hidden/compiled.html %}
+        {% include flexiblegs/learn/not-hidden/compiled.html %}
       </div>
-      {% include learn/not-hidden/preview.html %}
+      {% include flexiblegs/learn/not-hidden/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -67,14 +65,13 @@ permalink: /learn/not-hidden/
 <div id="scss">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/not-hidden/title.html %} (scss)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/not-hidden/title.html %} (scss)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/not-hidden/dynamic.html %}
+          {% include flexiblegs/learn/not-hidden/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
@@ -88,11 +85,11 @@ permalink: /learn/not-hidden/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include learn/not-hidden/compiled.html %}
+            {% include flexiblegs/learn/not-hidden/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/not-hidden/preview.html %}
+      {% include flexiblegs/learn/not-hidden/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -107,14 +104,13 @@ permalink: /learn/not-hidden/
 <div id="sass">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/not-hidden/title.html %} (sass)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/not-hidden/title.html %} (sass)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/not-hidden/dynamic.html %}
+          {% include flexiblegs/learn/not-hidden/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
@@ -125,11 +121,11 @@ permalink: /learn/not-hidden/
               -->    &.three<br/><!--
               -->      +<span>col("not-hidden")</span><!--
             --></pre>
-            {% include learn/not-hidden/compiled.html %}
+            {% include flexiblegs/learn/not-hidden/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/not-hidden/preview.html %}
+      {% include flexiblegs/learn/not-hidden/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -144,14 +140,13 @@ permalink: /learn/not-hidden/
 <div id="less">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/not-hidden/title.html %} (less)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/not-hidden/title.html %} (less)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/not-hidden/dynamic.html %}
+          {% include flexiblegs/learn/not-hidden/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
@@ -165,11 +160,11 @@ permalink: /learn/not-hidden/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include learn/not-hidden/compiled.html %}
+            {% include flexiblegs/learn/not-hidden/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/not-hidden/preview.html %}
+      {% include flexiblegs/learn/not-hidden/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -184,14 +179,13 @@ permalink: /learn/not-hidden/
 <div id="stylus">
   <div class="dn-browser">
     <div class="dn-browser-header">
-      {% include browser-button.html %}
-      <div class="dn-style--title">{% include learn/not-hidden/title.html %} (stylus)</div>
-      {% include logo.html %}
+      <div class="dn-style--title">{% include flexiblegs/learn/not-hidden/title.html %} (stylus)</div>
+      {% include flexiblegs/logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <div class="wrap xl-top xl-gutter-24 xl-2 md-1">
-          {% include learn/not-hidden/dynamic.html %}
+          {% include flexiblegs/learn/not-hidden/dynamic.html %}
           <div class="col">
             <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-rocket fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
@@ -202,11 +196,11 @@ permalink: /learn/not-hidden/
               -->    &.three<br/><!--
               -->      <span>col("not-hidden")</span><!--
             --></pre>
-            {% include learn/not-hidden/compiled.html %}
+            {% include flexiblegs/learn/not-hidden/compiled.html %}
           </div>
         </div>
       </div>
-      {% include learn/not-hidden/preview.html %}
+      {% include flexiblegs/learn/not-hidden/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
