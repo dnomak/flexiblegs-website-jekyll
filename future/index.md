@@ -61,10 +61,10 @@ permalink: /future/
             {% endif %}
             <div class="dn-height-16"></div>
             {% if page.language == 'en' %}
-              <p>To make our future plans a reality you can support us via PayPal.</p>
+              <p>To make our future plans a reality you can support us via PayPal or Gratipay.</p>
             {% endif %}
             {% if page.language == 'tr' %}
-              <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal aracılığıyla bağış yapabilirsiniz.</p>
+              <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal veya Gratipay aracılığıyla bağış yapabilirsiniz.</p>
             {% endif %}
           </div>
         </div>
