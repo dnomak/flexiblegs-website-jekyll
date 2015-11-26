@@ -41,7 +41,9 @@ pre {
   -moz-border-radius: 8px;
   border-radius: 8px;
   text-align: left;
+  white-space: pre-wrap;
   .comment {
+    white-space: nowrap;
     color: #a1a1a1;
     span {
       background: transparent;
@@ -111,6 +113,7 @@ pre {
 #css--menu,
 #bem--menu,
 #scss--menu,
+#framework-scss--menu,
 #sass--menu,
 #less--menu,
 #stylus--menu {

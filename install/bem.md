@@ -27,7 +27,7 @@ permalink: /install/bem/
           <div class="dn-height-16"></div>
           <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
             --><div class="comment">&lt;head&gt;<br/><!--
-            -->  &lt;link rel="stylesheet" href="<span>flexiblegs-bem.css</span>"&gt;<br/><!--
+            -->&nbsp;&nbsp;&lt;link rel="stylesheet" href="<span>flexiblegs-bem.css</span>"&gt;<br/><!--
             -->&lt;/head&gt;</div><!--
           --></pre>
           <div class="dn-height-40"></div>

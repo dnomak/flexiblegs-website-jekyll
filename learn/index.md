@@ -28,7 +28,7 @@ permalink: /learn/
             <div class="dn-height-16"></div>
             <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
               --><div class="comment">&lt;head&gt;<br/><!--
-              -->  &lt;meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;<br/><!--
+              -->&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;<br/><!--
               -->&lt;/head&gt;</div><!--
             --></pre>
             <div class="dn-height-24"></div>

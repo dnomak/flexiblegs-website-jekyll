@@ -1,12 +1,12 @@
 ---
-layout: flexiblegs
-title: css
-permalink: /install/css/
+layout: flexiblecss
+title: scss
+permalink: /framework/install/scss/
 ---
 
 <div class="dn-browser">
   <div class="dn-browser-header">
-    <div class="dn-style--title"><span>css</span></div>
+    <div class="dn-style--title"><span>scss</span></div>
     {% include flexiblegs/logo.html %}
   </div>
   <div class="dn-browser-body">
@@ -18,33 +18,31 @@ permalink: /install/css/
         <div class="col xl-1-1">
           <div class="dn-content">
             {% if page.language == 'en' %}
-              <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs-css.css" download>Download the file</a> and add the project as follows.
+              <a href="https://raw.githubusercontent.com/flexiblegs/flexiblecss-scss/master/flexiblecss-scss.scss" download>Download the file</a> and add the project as follows.
             {% endif %}
             {% if page.language == 'tr' %}
-              <a href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs-css.css" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
+              <a href="https://raw.githubusercontent.com/flexiblegs/flexiblecss-scss/master/flexiblecss-scss.scss" download>Dosyayı indirin</a> ve aşağıdaki gibi projenize ekleyin.
             {% endif %}
           </div>
           <div class="dn-height-16"></div>
-          <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
-            --><div class="comment">&lt;head&gt;<br/><!--
-            -->&nbsp;&nbsp;&lt;link rel="stylesheet" href="<span>flexiblegs-css.css</span>"&gt;<br/><!--
-            -->&lt;/head&gt;</div><!--
+          <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            --><div class="comment">@import "<span>flexiblecss-scss</span>";</div><!--
           --></pre>
           <div class="dn-height-40"></div>
           <div class="dn-content">
-            <a href="https://www.npmjs.com/package/flexiblegs-css">npm</a>
+            <a href="https://www.npmjs.com/package/flexiblecss-scss">npm</a>
           </div>
           <div class="dn-height-16"></div>
           <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
-            --><div class="comment">$ npm install --save <span>flexiblegs-css</span></div><!--
+            --><div class="comment">$ npm install --save <span>flexiblecss-scss</span></div><!--
           --></pre>
           <div class="dn-height-40"></div>
           <div class="dn-content">
-            <a href="http://bower.io/search/?q=flexiblegs-css">bower</a>
+            <a href="http://bower.io/search/?q=flexiblecss-scss">bower</a>
           </div>
           <div class="dn-height-16"></div>
           <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
-            --><div class="comment">$ bower install --save <span>flexiblegs-css</span></div><!--
+            --><div class="comment">$ bower install --save <span>flexiblecss-scss</span></div><!--
           --></pre>
         </div>
       </div>
@@ -53,7 +51,7 @@ permalink: /install/css/
     <div class="dn-browser-footer">
       <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
         <div class="col">
-          <a href="https://github.com/flexiblegs/flexiblegs-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-css</a>
+          <a href="https://github.com/flexiblegs/flexiblecss-scss" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblecss-scss</a>
         </div>
       </div>
     </div>

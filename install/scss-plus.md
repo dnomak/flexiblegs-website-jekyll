@@ -26,58 +26,58 @@ permalink: /install/scss-plus/
           </div>
           <div class="dn-height-16"></div>
           <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
-            --><div class="comment">$flexiblegs-method: (</div><!--
-            --><div class="comment">  <span>"css",</span></div><!--
-            --><div class="comment">  <span>"bem"</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$flexiblegs-breakpoint: (</div><!--
-            --><div class="comment">  <span>"xl" : "",</span></div><!--
-            --><div class="comment">  <span>"lg" : "(max-width: 1024px)",</span></div><!--
-            --><div class="comment">  <span>"md" : "(max-width: 768px)",</span></div><!--
-            --><div class="comment">  <span>"sm" : "(max-width: 667px)"</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$wrap-col: (</div><!--
-            --><div class="comment">  "auto", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12</div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$wrap-prop: (</div><!--
-            --><div class="comment">  <span>"table",</span></div><!--
-            --><div class="comment">  <span>"flexbox",</span></div><!--
-            --><div class="comment">  <span>"normal",</span></div><!--
-            --><div class="comment">  <span>"left",</span></div><!--
-            --><div class="comment">  <span>"center",</span></div><!--
-            --><div class="comment">  <span>"right",</span></div><!--
-            --><div class="comment">  <span>"top",</span></div><!--
-            --><div class="comment">  <span>"middle",</span></div><!--
-            --><div class="comment">  <span>"bottom",</span></div><!--
-            --><div class="comment">  <span>"between",</span></div><!--
-            --><div class="comment">  <span>"around",</span></div><!--
-            --><div class="comment">  <span>"baseline",</span></div><!--
-            --><div class="comment">  <span>"reverse",</span></div><!--
-            --><div class="comment">  <span>"not-reverse"</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$col-row: (</div><!--
-            --><div class="comment">  <span>1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$col-width: ();</div><!--
-            --><div class="comment">$col-prop: (</div><!--
-            --><div class="comment">  <span>"hidden",</span></div><!--
-            --><div class="comment">  <span>"not-hidden",</span></div><!--
-            --><div class="comment">  <span>"first",</span></div><!--
-            --><div class="comment">  <span>"not-first",</span></div><!--
-            --><div class="comment">  <span>"last",</span></div><!--
-            --><div class="comment">  <span>"not-last"</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$wrap-gutter: (</div><!--
-            --><div class="comment">  <span>0, 8, 16, 24, 40</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$wrap-outside: (</div><!--
-            --><div class="comment">  <span>0, 8, 16, 24, 40</span></div><!--
-            --><div class="comment">);</div><!--
-            --><div class="comment">$wrap-masonry: (</div><!--
-            --><div class="comment">  <span>2, 3, 4, 5, 6</span></div><!--
-            --><div class="comment">);<br><br></div><!--
-            --><div class="comment">@import "flexiblegs-scss";</div><!--
-            --><div class="comment">@import "<span>flexiblegs-scss-plus</span>";</div><!--
+            --><div class="comment">$flexiblegs-method: (<br><!--
+            -->&nbsp;&nbsp;<span>"css",</span><br><!--
+            -->&nbsp;&nbsp;<span>"bem"</span><br><!--
+            -->);<br><!--
+            -->$flexiblegs-breakpoint: (<br><!--
+            -->&nbsp;&nbsp;<span>"xl" : "",</span><br><!--
+            -->&nbsp;&nbsp;<span>"lg" : "(max-width: 1024px)",</span><br><!--
+            -->&nbsp;&nbsp;<span>"md" : "(max-width: 768px)",</span><br><!--
+            -->&nbsp;&nbsp;<span>"sm" : "(max-width: 667px)"</span><br><!--
+            -->);<br><!--
+            -->$wrap-col: (<br><!--
+            -->&nbsp;&nbsp;"auto", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12<br><!--
+            -->);<br><!--
+            -->$wrap-prop: (<br><!--
+            -->&nbsp;&nbsp;<span>"table",</span><br><!--
+            -->&nbsp;&nbsp;<span>"flexbox",</span><br><!--
+            -->&nbsp;&nbsp;<span>"normal",</span><br><!--
+            -->&nbsp;&nbsp;<span>"left",</span><br><!--
+            -->&nbsp;&nbsp;<span>"center",</span><br><!--
+            -->&nbsp;&nbsp;<span>"right",</span><br><!--
+            -->&nbsp;&nbsp;<span>"top",</span><br><!--
+            -->&nbsp;&nbsp;<span>"middle",</span><br><!--
+            -->&nbsp;&nbsp;<span>"bottom",</span><br><!--
+            -->&nbsp;&nbsp;<span>"between",</span><br><!--
+            -->&nbsp;&nbsp;<span>"around",</span><br><!--
+            -->&nbsp;&nbsp;<span>"baseline",</span><br><!--
+            -->&nbsp;&nbsp;<span>"reverse",</span><br><!--
+            -->&nbsp;&nbsp;<span>"not-reverse"</span><br><!--
+            -->);<br><!--
+            -->$col-row: (<br><!--
+            -->&nbsp;&nbsp;<span>1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12</span><br><!--
+            -->);<br><!--
+            -->$col-width: ();<br><!--
+            -->$col-prop: (<br><!--
+            -->&nbsp;&nbsp;<span>"hidden",</span><br><!--
+            -->&nbsp;&nbsp;<span>"not-hidden",</span><br><!--
+            -->&nbsp;&nbsp;<span>"first",</span><br><!--
+            -->&nbsp;&nbsp;<span>"not-first",</span><br><!--
+            -->&nbsp;&nbsp;<span>"last",</span><br><!--
+            -->&nbsp;&nbsp;<span>"not-last"</span><br><!--
+            -->);<br><!--
+            -->$wrap-gutter: (<br><!--
+            -->&nbsp;&nbsp;<span>0, 8, 16, 24, 40</span><br><!--
+            -->);<br><!--
+            -->$wrap-outside: (<br><!--
+            -->&nbsp;&nbsp;<span>0, 8, 16, 24, 40</span><br><!--
+            -->);<br><!--
+            -->$wrap-masonry: (<br><!--
+            -->&nbsp;&nbsp;<span>2, 3, 4, 5, 6</span><br><!--
+            -->);<br><br><!--
+            -->@import "flexiblegs-scss";<br><!--
+            -->@import "<span>flexiblegs-scss-plus</span>";</div><!--
           --></pre>
           <div class="dn-height-40"></div>
           <div class="dn-content">
