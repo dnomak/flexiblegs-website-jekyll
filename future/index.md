@@ -66,6 +66,26 @@ permalink: /future/
             {% if page.language == 'tr' %}
               <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal veya Gratipay aracılığıyla bağış yapabilirsiniz.</p>
             {% endif %}
+            <div class="dn-height-16"></div>
+            <div class="wrap xl-2 xl-gutter-16 lg-1">
+              <div class="col">
+                <div class="dn-button dn-button--icon">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: center;">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NHEUHUB8863NS">
+                    <input type="image" src="/img/paypal-logo.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1" alt="PayPal" style="display: none;">
+                  </form>
+                </div>
+                <div class="dn-height-16"></div>
+              </div>
+              <div class="col">
+                <a href="https://gratipay.com/flexible-grid-system/" target="_blank" class="dn-button dn-button--icon">
+                  <img src="/img/gratipay-logo.png" alt="" style="height: 33px;">
+                </a>
+                <div class="dn-height-16"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
