@@ -20,6 +20,7 @@ permalink: /future/
             {% if page.language == 'en' %}
               <ul>
                 <li><a href="https://github.com/flexiblegs/flexiblecss-scss">Flexible Front End Framework</a></li>
+                <li><a href="https://github.com/flexiblegs/flexible-icons">Flexible Icons</a></li>
                 <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
                 <li>Flexible Front End Editor</li>
                 <li>Flexible Cloud (Content Management System)</li>
@@ -41,6 +42,7 @@ permalink: /future/
             {% if page.language == 'tr' %}
               <ul>
                 <li><a href="https://github.com/flexiblegs/flexiblecss-scss">Flexible Front End Framework</a></li>
+                <li><a href="https://github.com/flexiblegs/flexible-icons">Flexible Icons</a></li>
                 <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
                 <li>Flexible Front End Editor</li>
                 <li>Flexible Cloud (İçerik Yönetim Sistemi)</li>
