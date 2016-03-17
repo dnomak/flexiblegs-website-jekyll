@@ -1,0 +1,3 @@
+[submodule "responsive-test"]
+	path = responsive-test
+	url = git@github.com:flexiblegs/responsive-test.git
